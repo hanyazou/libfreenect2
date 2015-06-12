@@ -41,20 +41,22 @@ public:
   Registration(Freenect2Device::IrCameraParams depth_p, Freenect2Device::ColorCameraParams rgb_p);
 
   // undistort/register a single depth data point
-  void apply( int dx, int dy, float dz, float& cx, float &cy);
+  void apply(int dx, int dy, float dz, float& cx, float &cy) const;
 
   // undistort/register a whole image
-  void apply(Frame* rgb, Frame* depth, unsigned char* registered);
+  void apply(const Frame* rgb, const Frame* depth, Frame* undistorted, Frame* registered) const;
 
 private:
-  void undistort_depth(int dx, int dy, float& mx, float& my);
-  void depth_to_color(float mx, float my, float& rx, float& ry);
+  void distort(int mx, int my, float& dx, float& dy) const;
+  void depth_to_color(float mx, float my, float& rx, float& ry) const;
 
   Freenect2Device::IrCameraParams depth;
   Freenect2Device::ColorCameraParams color;
 
-  float undistort_map[512][424][2];
-  float depth_to_color_map[512][424][2];
+  int distort_map[512 * 424];
+  float depth_to_color_map_x[512 * 424];
+  float depth_to_color_map_y[512 * 424];
+  int depth_to_color_map_yi[512 * 424];
 };
 
 } /* namespace libfreenect2 */
