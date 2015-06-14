@@ -59,6 +59,8 @@ void ColorStream::populateFrame(libfreenect2::Frame* srcFrame, int srcX, int src
   dstFrame->sensorType = sensor_type;
   dstFrame->stride = dstFrame->width * 3;
 
+  dstFrame->timestamp = srcFrame->sequence * 33369;
+
   // copy stream buffer from freenect
   switch (video_mode.pixelFormat)
   {
