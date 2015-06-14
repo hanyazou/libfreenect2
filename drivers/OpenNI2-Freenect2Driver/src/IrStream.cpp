@@ -52,6 +52,8 @@ void IrStream::populateFrame(libfreenect2::Frame* srcFrame, int srcX, int srcY, 
   dstFrame->sensorType = sensor_type;
   dstFrame->stride = dstFrame->width * sizeof(uint16_t);
 
+  dstFrame->timestamp = srcFrame->sequence * 33369;
+
   // copy stream buffer from freenect
   copyFrame(static_cast<float*>((void*)srcFrame->data), srcX, srcY, srcFrame->width,
             static_cast<uint16_t*>(dstFrame->data), dstX, dstY, dstFrame->width,
