@@ -33,6 +33,7 @@
 #include <libfreenect2/frame_listener.hpp>
 #include <libfreenect2/packet_pipeline.h>
 #include <string>
+#include <vector>
 
 namespace libfreenect2
 {
@@ -40,6 +41,9 @@ namespace libfreenect2
 /** @defgroup device Initialization and Device Control
  * Find, open, and control Kinect v2 devices. */
 ///@{
+
+typedef std::vector<int> flags;
+extern uint64_t getTimestamp();
 
 /** Device control. */
 class LIBFREENECT2_API Freenect2Device
@@ -219,6 +223,10 @@ public:
    */
   int enumerateDevices();
 
+  /** Reset all Kinect 2 sensor devices on USB bus
+   */
+  void forceResetAllDevices();
+
   /**
    * @param idx Device index
    * @return Device serial number, or empty if the index is invalid.
@@ -266,6 +274,17 @@ public:
    * @return New device object, or NULL on failure
    */
   Freenect2Device *openDefaultDevice(const PacketPipeline *factory);
+
+  static flags debug_flags;
+  static bool debug_flag(int n) {
+    for (flags::iterator it = debug_flags.begin(); it != debug_flags.end(); it++)
+    {
+        if (*it == n)
+            return true;
+    }
+    return false;
+  }
+
 private:
   Freenect2Impl *impl_;
 };

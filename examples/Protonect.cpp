@@ -46,6 +46,10 @@ bool protonect_shutdown = false; ///< Whether the running application should shu
 void sigint_handler(int s)
 {
   protonect_shutdown = true;
+  if (libfreenect2::Freenect2::debug_flag(1)) {
+    std::cout << "#### 1. exit in sigint_handler()" << std::endl;
+    exit(1);
+  }
 }
 
 bool protonect_paused = false;
@@ -150,6 +154,7 @@ int main(int argc, char *argv[])
   std::string serial = "";
 
   bool viewer_enabled = true;
+  int64_t num_frames = -1;
   bool enable_rgb = true;
   bool enable_depth = true;
 
@@ -157,6 +162,19 @@ int main(int argc, char *argv[])
   {
     const std::string arg(argv[argI]);
 
+    if(arg == "--debug_flags")
+    {
+        while (argI+1 < argc && argv[argI+1][0] != '-' && atoi(argv[argI+1]) != 0)
+            argI++;
+    } else
+    if(arg == "--force_reset_all_devices")
+    {
+    } else
+    if(arg == "--frames")
+    {
+        ++argI;
+        num_frames = atol(argv[argI]);
+    } else
     if(arg == "-help" || arg == "--help" || arg == "-h" || arg == "-v" || arg == "--version" || arg == "-version")
     {
       // Just let the initial lines display at the beginning of main
@@ -213,6 +231,25 @@ int main(int argc, char *argv[])
   {
     std::cerr << "Disabling both streams is not allowed!" << std::endl;
     return -1;
+  }
+
+  for(int argI = 1; argI < argc; ++argI)
+  {
+    const std::string arg(argv[argI]);
+
+    if(arg == "--debug_flags")
+    {
+        while (argI+1 < argc && argv[argI+1][0] != '-' && atoi(argv[argI+1]) != 0)
+            freenect2.debug_flags.push_back(atoi(argv[++argI]));
+    } else
+    if(arg == "--force_reset_all_devices")
+    {
+        freenect2.forceResetAllDevices();
+    } else
+    if(arg == "--exit")
+    {
+        exit(1);
+    }
   }
 
 /// [discovery]
@@ -277,6 +314,10 @@ int main(int argc, char *argv[])
     if (!dev->startStreams(enable_rgb, enable_depth))
       return -1;
   }
+  for (libfreenect2::flags::iterator it = freenect2.debug_flags.begin(); it != freenect2.debug_flags.end(); it++)
+  {
+    std::cout << "debug_flag: " << *it << std::endl;
+  }
 
   std::cout << "device serial: " << dev->getSerialNumber() << std::endl;
   std::cout << "device firmware: " << dev->getFirmwareVersion() << std::endl;
@@ -297,7 +338,7 @@ int main(int argc, char *argv[])
 #endif
 
 /// [loop start]
-  while(!protonect_shutdown)
+  while(!protonect_shutdown && (num_frames == -1 || framecount < num_frames))
   {
     listener.waitForNewFrame(frames);
     libfreenect2::Frame *rgb = frames[libfreenect2::Frame::Color];
@@ -308,6 +349,10 @@ int main(int argc, char *argv[])
     if (enable_rgb && enable_depth)
     {
 /// [registration]
+      if (!viewer_enabled) {
+        if (framecount == 0)
+          std::cout << "#### skip registration." << std::endl;
+      } else
       registration->apply(rgb, depth, &undistorted, &registered);
 /// [registration]
     }
@@ -348,7 +393,15 @@ int main(int argc, char *argv[])
   // TODO: restarting ir stream doesn't work!
   // TODO: bad things will happen, if frame listeners are freed before dev->stop() :(
 /// [stop]
+  if (freenect2.debug_flag(10)) {
+    std::cout << "#### 10. exit before stop()" << std::endl;
+    exit(1);
+  }
   dev->stop();
+  if (freenect2.debug_flag(11)) {
+    std::cout << "#### 11. exit before close()" << std::endl;
+    exit(1);
+  }
   dev->close();
 /// [stop]
 

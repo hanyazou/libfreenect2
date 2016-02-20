@@ -32,6 +32,7 @@
 #include <libusb.h>
 #include <limits>
 #include <cmath>
+#include <sys/time.h>
 #define WRITE_LIBUSB_ERROR(__RESULT) libusb_error_name(__RESULT) << " " << libusb_strerror((libusb_error)__RESULT)
 
 #include <libfreenect2/libfreenect2.hpp>
@@ -423,6 +424,73 @@ public:
     has_device_enumeration_ = false;
   }
 
+  void powerAdaptorPort(libusb_device *dev, bool power)
+  {
+    const char *onoff = power ? "ON" : "OFF";
+    LOG_INFO << "Kinect Super Speed HUB port: " << PrintBusAndDevice(dev) << " " << onoff;
+
+    libusb_device_handle *dev_handle;
+    int r = libusb_open(dev, &dev_handle);
+    if(r == LIBUSB_SUCCESS)
+    {
+        int port = 1;
+
+        /*
+         *  port power off/on to reset Kinect v2
+         */
+        r = libusb_control_transfer(dev_handle,
+                                    0x23,  // bmRequestType
+                                    power ? LIBUSB_REQUEST_SET_FEATURE : LIBUSB_REQUEST_CLEAR_FEATURE,
+                                    8, // PORT_POWER
+                                    port,
+                                    NULL,
+                                    0,
+                                    0);
+        if (r != 0) {
+            LOG_INFO << "set port power " << onoff << ": ERROR";
+        }
+        libusb_close(dev_handle);
+    } else {
+      LOG_ERROR << "failed to open Kinect v2 HUB: " << PrintBusAndDevice(dev, r);
+    }
+  }
+
+  void forceResetAllDevices()
+  {
+    LOG_INFO << "force reset all devices...";
+    libusb_device **device_list;
+    int num_devices = libusb_get_device_list(usb_context_, &device_list);
+    std::vector<libusb_device *> parent_hub_list;
+
+    if(num_devices > 0)
+    {
+      for(int idx = 0; idx < num_devices; ++idx)
+      {
+        libusb_device *dev = device_list[idx];
+        libusb_device_descriptor dev_desc;
+
+        int r = libusb_get_device_descriptor(dev, &dev_desc); // this is always successful
+        if(dev_desc.idVendor == Freenect2Device::VendorId && dev_desc.idProduct == 729 && dev_desc.bDeviceProtocol == 3)
+        {
+          parent_hub_list.push_back(libusb_ref_device(dev));
+        }
+      }
+    }
+
+    for (std::vector<libusb_device*>::iterator it = parent_hub_list.begin(); it != parent_hub_list.end(); it++)
+    {
+        powerAdaptorPort(*it, false); // OFF
+    }
+    libfreenect2::this_thread::sleep_for(libfreenect2::chrono::milliseconds(400));
+    for (std::vector<libusb_device*>::iterator it = parent_hub_list.begin(); it != parent_hub_list.end(); it++)
+    {
+        powerAdaptorPort(*it, true); // ON
+        libusb_unref_device(*it);
+    }
+    libfreenect2::this_thread::sleep_for(libfreenect2::chrono::milliseconds(4000));
+    enumerateDevices();
+  }
+
   void enumerateDevices()
   {
     if (!initialized)
@@ -768,9 +836,37 @@ bool Freenect2DeviceImpl::startStreams(bool enable_rgb, bool enable_depth)
   return true;
 }
 
+#define DEBUG_EXIT(flag, msg) \
+  if (libfreenect2::Freenect2::debug_flag(flag)) { \
+    LOG_INFO << "#### " << (flag) << ". exit " << msg;    \
+    exit(1); \
+  }
+#define DEBUG_IF(flag, msg) \
+  if (libfreenect2::Freenect2::debug_flag(flag)) { \
+    LOG_INFO << "#### " << (flag) << ". " << msg;    \
+  } \
+  if (libfreenect2::Freenect2::debug_flag(flag))
+
+#define DEBUG_SKIP(flag, msg) \
+  if (libfreenect2::Freenect2::debug_flag(flag)) { \
+    LOG_INFO << "#### " << (flag) << ". skip " << msg;    \
+  } else
+
 bool Freenect2DeviceImpl::stop()
 {
   LOG_INFO << "stopping...";
+  {
+    int i;
+    for (i = 1000; i < 2000; i++)
+      if (libfreenect2::Freenect2::debug_flag(i))
+        break;
+    if (i < 2000) {
+      int t = i - 1000;
+      libfreenect2::this_thread::sleep_for(libfreenect2::chrono::milliseconds(t));
+      std::string msg = "after sleep " + std::to_string(t) + "ms in stop()";
+      DEBUG_EXIT(i, msg);
+    }
+  }
 
   if(state_ != Streaming)
   {
@@ -781,30 +877,63 @@ bool Freenect2DeviceImpl::stop()
   if (rgb_transfer_pool_.enabled())
   {
     LOG_INFO << "canceling rgb transfers...";
+    DEBUG_EXIT(101, "before rgb_transfer_pool_.disableSubmission() in stop()");
     rgb_transfer_pool_.disableSubmission();
+    DEBUG_EXIT(103, "before rgb_transfer_pool_.cancel() in stop()");
+    DEBUG_SKIP(153, "rgb_transfer_pool_.cancel() in stop()")
     rgb_transfer_pool_.cancel();
   }
 
   if (ir_transfer_pool_.enabled())
   {
     LOG_INFO << "canceling depth transfers...";
+    DEBUG_EXIT(102, "before ir_transfer_pool_.disableSubmission() in stop()");
     ir_transfer_pool_.disableSubmission();
+    DEBUG_EXIT(104, "before ir_transfer_pool_.cancel() in stop()");
+    DEBUG_SKIP(154, "ir_transfer_pool_.cancel() in stop()")
     ir_transfer_pool_.cancel();
   }
 
+  {
+    int i;
+    for (i = 2000; i < 3000; i++)
+      if (libfreenect2::Freenect2::debug_flag(i))
+        break;
+    if (i < 3000) {
+      int t = i - 2000;
+      libfreenect2::this_thread::sleep_for(libfreenect2::chrono::milliseconds(t));
+      std::string msg = ". sleep " + std::to_string(t) + "ms before usb_control_.setIrInterfaceState(UsbControl::Disabled) in stop()";
+      LOG_INFO << "#### " << (i) << msg;    \
+    }
+  }
+
+  DEBUG_EXIT(105, "before usb_control_.setIrInterfaceState(UsbControl::Disabled) in stop()");
+  DEBUG_IF(185, "sleep(2) before usb_control_.setIrInterfaceState(UsbControl::Disabled) in stop()") sleep(2);
   if (usb_control_.setIrInterfaceState(UsbControl::Disabled) != UsbControl::Success) return false;
 
   CommandTransaction::Result result;
+  DEBUG_EXIT(106, "before SetModeEnabledWith0x00640064Command() in stop()");
   if (!command_tx_.execute(SetModeEnabledWith0x00640064Command(nextCommandSeq()), result)) return false;
+  DEBUG_EXIT(107, "before SetModeDisabledCommand() in stop()");
   if (!command_tx_.execute(SetModeDisabledCommand(nextCommandSeq()), result)) return false;
+  DEBUG_EXIT(108, "before StopCommand() in stop()");
+  DEBUG_SKIP(158, "StopCommand() in stop()")
   if (!command_tx_.execute(StopCommand(nextCommandSeq()), result)) return false;
+  DEBUG_EXIT(109, "before SetStreamDisabledCommand() in stop()");
+  DEBUG_SKIP(159, "SetStreamDisabledCommand() in stop()")
   if (!command_tx_.execute(SetStreamDisabledCommand(nextCommandSeq()), result)) return false;
+  DEBUG_EXIT(110, "before SetModeEnabledCommand() in stop()");
+  DEBUG_SKIP(160, "SetModeEnabledCommand() in stop()") {
   if (!command_tx_.execute(SetModeEnabledCommand(nextCommandSeq()), result)) return false;
+  DEBUG_EXIT(111, "before SetModeDisabledCommand() in stop()");
   if (!command_tx_.execute(SetModeDisabledCommand(nextCommandSeq()), result)) return false;
   if (!command_tx_.execute(SetModeEnabledCommand(nextCommandSeq()), result)) return false;
   if (!command_tx_.execute(SetModeDisabledCommand(nextCommandSeq()), result)) return false;
 
+  DEBUG_EXIT(112, "before usb_control_.setVideoTransferFunctionState(UsbControl::Disabled) in stop()");
+  DEBUG_SKIP(162, "usb_control_.setVideoTransferFunctionState(UsbControl::Disabled) in stop()")
   if (usb_control_.setVideoTransferFunctionState(UsbControl::Disabled) != UsbControl::Success) return false;
+  }
 
   state_ = Open;
   LOG_INFO << "stopped";
@@ -827,16 +956,25 @@ bool Freenect2DeviceImpl::close()
   }
 
   CommandTransaction::Result result;
+  DEBUG_EXIT(201, "before SetModeEnabledWith0x00640064Command()");
+  DEBUG_SKIP(251, "SetModeEnabledWith0x00640064Command()")
   command_tx_.execute(SetModeEnabledWith0x00640064Command(nextCommandSeq()), result);
+  DEBUG_EXIT(202, "before SetModeDisabledCommand() in close()");
+  DEBUG_SKIP(252, "SetModeDisabledCommand() in close()")
   command_tx_.execute(SetModeDisabledCommand(nextCommandSeq()), result);
+  DEBUG_EXIT(203, "before ShutdownCommand() in close()");
+  DEBUG_SKIP(253, "ShutdownCommand() in close()")
   command_tx_.execute(ShutdownCommand(nextCommandSeq()), result);
 
+  DEBUG_EXIT(204, "before getRgbPacketProcessor()->setFrameListener(0) in close()");
   if(pipeline_->getRgbPacketProcessor() != 0)
     pipeline_->getRgbPacketProcessor()->setFrameListener(0);
 
+  DEBUG_EXIT(205, "before getDepthPacketProcessor()->setFrameListener(0) in close()");
   if(pipeline_->getDepthPacketProcessor() != 0)
     pipeline_->getDepthPacketProcessor()->setFrameListener(0);
 
+  DEBUG_EXIT(206, "before usb_control_.releaseInterfaces() in close()");
   if(has_usb_interfaces_)
   {
     LOG_INFO << "releasing usb interfaces...";
@@ -846,11 +984,14 @@ bool Freenect2DeviceImpl::close()
   }
 
   LOG_INFO << "deallocating usb transfer pools...";
+  DEBUG_EXIT(207, "before rgb_transfer_pool_.deallocate() in close()");
   rgb_transfer_pool_.deallocate();
+  DEBUG_EXIT(208, "before ir_transfer_pool_.deallocate() in close()");
   ir_transfer_pool_.deallocate();
 
   LOG_INFO << "closing usb device...";
 
+  DEBUG_EXIT(209, "before libusb_close(usb_device_handle_) in close()");
   libusb_close(usb_device_handle_);
   usb_device_handle_ = 0;
   usb_device_ = 0;
@@ -873,6 +1014,8 @@ PacketPipeline *createDefaultPacketPipeline()
 #endif
 }
 
+flags Freenect2::debug_flags;
+
 Freenect2::Freenect2(void *usb_context) :
     impl_(new Freenect2Impl(usb_context))
 {
@@ -887,6 +1030,26 @@ int Freenect2::enumerateDevices()
 {
   impl_->clearDeviceEnumeration();
   return impl_->getNumDevices();
+}
+
+void Freenect2::forceResetAllDevices()
+{
+  return impl_->forceResetAllDevices();
+}
+
+uint64_t getTimestamp()
+{
+  static bool initialized = false;
+  static struct timeval ts_epoc;
+  struct timeval ts;
+
+  if (!initialized) {
+    initialized = true;
+    gettimeofday(&ts_epoc, NULL);
+  }
+
+  gettimeofday(&ts, NULL);
+  return (ts.tv_sec - ts_epoc.tv_sec) * 1000 + ts.tv_usec / 1000;  // XXX, ignoring nsec of the epoc.
 }
 
 std::string Freenect2::getDeviceSerialNumber(int idx)
