@@ -63,7 +63,8 @@ test()
     #$* > output 2>&1 &
     $* 2>&1 &
     pid=$!
-    wait=$((RANDOM % 3 + 4)).$((RANDOM % 100))
+    #wait=$((RANDOM % 3 + 4)).$((RANDOM % 100))
+    wait=$((RANDOM % 3 + 10)).$((RANDOM % 100))
     echo sleep $wait
     sleep $wait
     #kill -KILL $pid
