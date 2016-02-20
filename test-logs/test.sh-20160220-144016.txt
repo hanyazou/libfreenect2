@@ -1,3 +1,39 @@
+log file is ../test-logs/test.sh-20160220-144016.txt
+Sat Feb 20 14:40:16 JST 2016
+Darwin iMac.local 13.4.0 Darwin Kernel Version 13.4.0: Sun Aug 17 19:50:11 PDT 2014; root:xnu-2422.115.4~1/RELEASE_X86_64 x86_64
+Software:
+
+    System Software Overview:
+
+      System Version: OS X 10.9.5 (13F34)
+      Kernel Version: Darwin 13.4.0
+      Boot Volume: Mac OS 10.9 64GB
+      Boot Mode: Normal
+      Computer Name: iMac
+      User Name: Zou Hanya (hanyazou)
+      Secure Virtual Memory: Enabled
+      Time since boot: 2:40
+
+TERM_PROGRAM=Apple_Terminal
+TERM=xterm-256color
+SHELL=/bin/bash
+TMPDIR=/var/folders/w4/__dhx9fj1m94624xs_73mdkh0000gn/T/
+Apple_PubSub_Socket_Render=/tmp/launch-AorD1e/Render
+TERM_PROGRAM_VERSION=326
+TERM_SESSION_ID=E04046BD-4680-4013-943B-4474DAD03DBD
+USER=hanyazou
+SSH_AUTH_SOCK=/tmp/launch-xlMh6N/Listeners
+__CF_USER_TEXT_ENCODING=0x1F5:0:0
+__CHECKFIX1436934=1
+PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+PWD=/Users/hanyazou/github/libfreenect2-hanyazou/build
+HOME=/Users/hanyazou
+SHLVL=2
+LOGNAME=hanyazou
+LC_CTYPE=UTF-8
+_=/usr/bin/env
+----------
+$ cat ../test.sh
 #!/bin/bash
 
 show_env()
@@ -117,8 +153,7 @@ for exit in $exits; do
   reboot=0
   error=0
   while [ $i -lt $try ]; do
-    #test ./bin/Protonect --debug_flags $skip $exit cl -noviewer
-    test ./bin/Protonect --debug_flags $skip $exit cl 
+    test ./bin/Protonect --debug_flags $skip $exit cl -noviewer
     let "i = $i + 1"
     let "progress = $progress + 1"
     eval "reboot$exit=$reboot"
@@ -146,3 +181,37 @@ for exit in $exits; do
 done
 
 } 2>&1 | tee ${LOG_FILE}
+----------
+$ git log
+commit ec3847d590b838783177c72fe1c2a17577e1c2d8
+Author: Zou Hanya <hanyazou@Zous-iMac.local>
+Date:   Sat Feb 20 12:55:55 2016 +0900
+
+    debug_flags 253 999 is OK on 10.9.5 w/o VMware, Chrome, Xcode and USBProber
+
+$ git diff
+diff --git a/test.sh b/test.sh
+index 258b121..9f1b29d 100644
+--- a/test.sh
++++ b/test.sh
+@@ -84,7 +84,7 @@ test()
+ }
+ 
+ try=500
+-try=100
++try=20
+ skip="153 154 185 253"
+ skip="153 154 253 158 159 160 162"
+ exits="1 10 101 102 103 104 105 106 107 108 109 110 111 112 113 20 201 202 203 204 205 206 207 208 209"
+----------
+#### RESET
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [gl | cl | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+To pause and unpause: pkill -USR1 Protonect
+Unknown argument: --exit
+[Info] [Freenect2Impl] force reset all devices...
+[Info] [Freenect2Impl] Kinect Super Speed HUB port: @21:1 OFF
+[Info] [Freenect2Impl] Kinect Super Speed HUB port: @21:1 ON
+[Info] [Freenect2Impl] enumerating devices...
