@@ -4,9 +4,9 @@ error=0
 timeout=0
 show_stat()
 {
-    let "progress = $progress + 1"
-    let "ct = `date '+%s'` - $st"
-    let "et = $ct * $all / $progress"
+    progress=$(($progress + 1))
+    ct=$((`date '+%s'` - $st))
+    et=$(($ct * $all / $progress))
     
     printf "%-13s %s" "$*" "`date '+%b %d %H:%M:%S'`"
     printf " timeout=%d error=%d " $timeout $error
@@ -38,8 +38,8 @@ timeout_detected()
     cat $out
     show_stat "#### TIMEOUT"
 }
-echo log file is $LOG_FILE
 LOG_FILE=`dirname $0`/test-logs/`basename $0`-`date '+%Y%m%d-%H%M%S'`.txt
+echo log file is $LOG_FILE
 {
 show_env
 st=`date '+%s'`
