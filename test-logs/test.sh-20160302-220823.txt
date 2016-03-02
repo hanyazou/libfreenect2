@@ -1,0 +1,1682 @@
+System Version: OS X 10.11.2 (15C50)
+fb92392 Fix test script to run script on Linux
+#### OK       Mar 02 22:08:29 timeout=0 error=0  0h00m06s/1h40m00s 1 (0%)
+#### OK       Mar 02 22:08:37 timeout=0 error=0  0h00m14s/1h56m40s 2 (0%)
+#### OK       Mar 02 22:08:45 timeout=0 error=0  0h00m22s/2h02m13s 3 (0%)
+#### OK       Mar 02 22:08:52 timeout=0 error=0  0h00m29s/2h00m50s 4 (0%)
+#### OK       Mar 02 22:09:01 timeout=0 error=0  0h00m38s/2h06m40s 5 (0%)
+#### OK       Mar 02 22:09:09 timeout=0 error=0  0h00m46s/2h07m46s 6 (0%)
+#### OK       Mar 02 22:09:17 timeout=0 error=0  0h00m54s/2h08m34s 7 (0%)
+#### OK       Mar 02 22:09:25 timeout=0 error=0  0h01m02s/2h09m10s 8 (0%)
+#### OK       Mar 02 22:09:32 timeout=0 error=0  0h01m09s/2h07m46s 9 (0%)
+#### OK       Mar 02 22:09:40 timeout=0 error=0  0h01m17s/2h08m20s 10 (1%)
+#### OK       Mar 02 22:09:48 timeout=0 error=0  0h01m25s/2h08m47s 11 (1%)
+#### OK       Mar 02 22:09:56 timeout=0 error=0  0h01m33s/2h09m10s 12 (1%)
+#### OK       Mar 02 22:10:04 timeout=0 error=0  0h01m41s/2h09m29s 13 (1%)
+#### OK       Mar 02 22:10:12 timeout=0 error=0  0h01m49s/2h09m45s 14 (1%)
+#### OK       Mar 02 22:10:20 timeout=0 error=0  0h01m57s/2h10m00s 15 (1%)
+#### OK       Mar 02 22:10:28 timeout=0 error=0  0h02m05s/2h10m12s 16 (1%)
+#### OK       Mar 02 22:10:36 timeout=0 error=0  0h02m13s/2h10m23s 17 (1%)
+#### OK       Mar 02 22:10:44 timeout=0 error=0  0h02m21s/2h10m33s 18 (1%)
+#### OK       Mar 02 22:10:52 timeout=0 error=0  0h02m29s/2h10m42s 19 (1%)
+#### OK       Mar 02 22:11:00 timeout=0 error=0  0h02m37s/2h10m50s 20 (2%)
+#### OK       Mar 02 22:11:07 timeout=0 error=0  0h02m44s/2h10m09s 21 (2%)
+#### OK       Mar 02 22:11:16 timeout=0 error=0  0h02m53s/2h11m03s 22 (2%)
+#### OK       Mar 02 22:11:23 timeout=0 error=0  0h03m00s/2h10m26s 23 (2%)
+#### OK       Mar 02 22:11:32 timeout=0 error=0  0h03m09s/2h11m15s 24 (2%)
+#### OK       Mar 02 22:11:40 timeout=0 error=0  0h03m17s/2h11m20s 25 (2%)
+#### OK       Mar 02 22:11:48 timeout=0 error=0  0h03m25s/2h11m24s 26 (2%)
+#### OK       Mar 02 22:11:55 timeout=0 error=0  0h03m32s/2h10m51s 27 (2%)
+#### OK       Mar 02 22:12:04 timeout=0 error=0  0h03m41s/2h11m32s 28 (2%)
+#### OK       Mar 02 22:12:12 timeout=0 error=0  0h03m49s/2h11m36s 29 (2%)
+#### OK       Mar 02 22:12:20 timeout=0 error=0  0h03m57s/2h11m40s 30 (3%)
+#### OK       Mar 02 22:12:28 timeout=0 error=0  0h04m05s/2h11m43s 31 (3%)
+#### OK       Mar 02 22:12:35 timeout=0 error=0  0h04m12s/2h11m15s 32 (3%)
+#### OK       Mar 02 22:12:43 timeout=0 error=0  0h04m20s/2h11m18s 33 (3%)
+#### OK       Mar 02 22:12:51 timeout=0 error=0  0h04m28s/2h11m22s 34 (3%)
+#### OK       Mar 02 22:12:59 timeout=0 error=0  0h04m36s/2h11m25s 35 (3%)
+#### OK       Mar 02 22:13:07 timeout=0 error=0  0h04m44s/2h11m28s 36 (3%)
+#### OK       Mar 02 22:13:15 timeout=0 error=0  0h04m52s/2h11m31s 37 (3%)
+#### OK       Mar 02 22:13:24 timeout=0 error=0  0h05m01s/2h12m01s 38 (3%)
+#### OK       Mar 02 22:13:32 timeout=0 error=0  0h05m09s/2h12m03s 39 (3%)
+#### OK       Mar 02 22:13:40 timeout=0 error=0  0h05m17s/2h12m05s 40 (4%)
+#### OK       Mar 02 22:13:48 timeout=0 error=0  0h05m25s/2h12m06s 41 (4%)
+#### OK       Mar 02 22:13:56 timeout=0 error=0  0h05m33s/2h12m08s 42 (4%)
+#### OK       Mar 02 22:14:04 timeout=0 error=0  0h05m41s/2h12m10s 43 (4%)
+#### OK       Mar 02 22:14:12 timeout=0 error=0  0h05m49s/2h12m11s 44 (4%)
+#### OK       Mar 02 22:14:20 timeout=0 error=0  0h05m57s/2h12m13s 45 (4%)
+#### OK       Mar 02 22:14:28 timeout=0 error=0  0h06m05s/2h12m14s 46 (4%)
+#### OK       Mar 02 22:14:36 timeout=0 error=0  0h06m13s/2h12m16s 47 (4%)
+#### OK       Mar 02 22:14:44 timeout=0 error=0  0h06m21s/2h12m17s 48 (4%)
+#### OK       Mar 02 22:14:52 timeout=0 error=0  0h06m29s/2h12m18s 49 (4%)
+#### OK       Mar 02 22:15:00 timeout=0 error=0  0h06m37s/2h12m20s 50 (5%)
+#### OK       Mar 02 22:15:08 timeout=0 error=0  0h06m45s/2h12m21s 51 (5%)
+#### OK       Mar 02 22:15:16 timeout=0 error=0  0h06m53s/2h12m22s 52 (5%)
+#### OK       Mar 02 22:15:24 timeout=0 error=0  0h07m01s/2h12m23s 53 (5%)
+#### OK       Mar 02 22:15:32 timeout=0 error=0  0h07m09s/2h12m24s 54 (5%)
+#### OK       Mar 02 22:15:40 timeout=0 error=0  0h07m17s/2h12m25s 55 (5%)
+#### OK       Mar 02 22:15:48 timeout=0 error=0  0h07m25s/2h12m26s 56 (5%)
+#### OK       Mar 02 22:15:56 timeout=0 error=0  0h07m33s/2h12m27s 57 (5%)
+#### OK       Mar 02 22:16:04 timeout=0 error=0  0h07m41s/2h12m28s 58 (5%)
+#### OK       Mar 02 22:16:12 timeout=0 error=0  0h07m49s/2h12m29s 59 (5%)
+#### OK       Mar 02 22:16:20 timeout=0 error=0  0h07m57s/2h12m30s 60 (6%)
+#### OK       Mar 02 22:16:28 timeout=0 error=0  0h08m05s/2h12m30s 61 (6%)
+#### OK       Mar 02 22:16:36 timeout=0 error=0  0h08m13s/2h12m31s 62 (6%)
+#### OK       Mar 02 22:16:44 timeout=0 error=0  0h08m21s/2h12m32s 63 (6%)
+#### OK       Mar 02 22:16:52 timeout=0 error=0  0h08m29s/2h12m33s 64 (6%)
+#### OK       Mar 02 22:17:00 timeout=0 error=0  0h08m37s/2h12m33s 65 (6%)
+#### OK       Mar 02 22:17:08 timeout=0 error=0  0h08m45s/2h12m34s 66 (6%)
+#### OK       Mar 02 22:17:16 timeout=0 error=0  0h08m53s/2h12m35s 67 (6%)
+#### OK       Mar 02 22:17:24 timeout=0 error=0  0h09m01s/2h12m35s 68 (6%)
+#### OK       Mar 02 22:17:32 timeout=0 error=0  0h09m09s/2h12m36s 69 (6%)
+#### OK       Mar 02 22:17:40 timeout=0 error=0  0h09m17s/2h12m37s 70 (7%)
+#### OK       Mar 02 22:17:48 timeout=0 error=0  0h09m25s/2h12m37s 71 (7%)
+#### OK       Mar 02 22:17:57 timeout=0 error=0  0h09m34s/2h12m52s 72 (7%)
+#### OK       Mar 02 22:18:05 timeout=0 error=0  0h09m42s/2h12m52s 73 (7%)
+#### OK       Mar 02 22:18:13 timeout=0 error=0  0h09m50s/2h12m52s 74 (7%)
+#### OK       Mar 02 22:18:21 timeout=0 error=0  0h09m58s/2h12m53s 75 (7%)
+#### OK       Mar 02 22:18:29 timeout=0 error=0  0h10m06s/2h12m53s 76 (7%)
+#### OK       Mar 02 22:18:37 timeout=0 error=0  0h10m14s/2h12m54s 77 (7%)
+#### OK       Mar 02 22:18:44 timeout=0 error=0  0h10m21s/2h12m41s 78 (7%)
+#### OK       Mar 02 22:18:52 timeout=0 error=0  0h10m29s/2h12m42s 79 (7%)
+#### OK       Mar 02 22:19:00 timeout=0 error=0  0h10m37s/2h12m42s 80 (8%)
+#### OK       Mar 02 22:19:08 timeout=0 error=0  0h10m45s/2h12m42s 81 (8%)
+#### OK       Mar 02 22:19:16 timeout=0 error=0  0h10m53s/2h12m43s 82 (8%)
+#### OK       Mar 02 22:19:24 timeout=0 error=0  0h11m01s/2h12m43s 83 (8%)
+#### OK       Mar 02 22:19:32 timeout=0 error=0  0h11m09s/2h12m44s 84 (8%)
+#### OK       Mar 02 22:19:39 timeout=0 error=0  0h11m16s/2h12m32s 85 (8%)
+#### OK       Mar 02 22:19:47 timeout=0 error=0  0h11m24s/2h12m33s 86 (8%)
+#### OK       Mar 02 22:19:56 timeout=0 error=0  0h11m33s/2h12m45s 87 (8%)
+#### OK       Mar 02 22:20:04 timeout=0 error=0  0h11m41s/2h12m45s 88 (8%)
+#### OK       Mar 02 22:20:12 timeout=0 error=0  0h11m49s/2h12m46s 89 (8%)
+#### OK       Mar 02 22:20:20 timeout=0 error=0  0h11m57s/2h12m46s 90 (9%)
+#### OK       Mar 02 22:20:28 timeout=0 error=0  0h12m05s/2h12m47s 91 (9%)
+#### OK       Mar 02 22:20:37 timeout=0 error=0  0h12m14s/2h12m58s 92 (9%)
+#### OK       Mar 02 22:20:45 timeout=0 error=0  0h12m22s/2h12m58s 93 (9%)
+#### OK       Mar 02 22:20:53 timeout=0 error=0  0h12m30s/2h12m58s 94 (9%)
+#### OK       Mar 02 22:21:01 timeout=0 error=0  0h12m38s/2h12m58s 95 (9%)
+#### OK       Mar 02 22:21:09 timeout=0 error=0  0h12m46s/2h12m59s 96 (9%)
+#### OK       Mar 02 22:21:17 timeout=0 error=0  0h12m54s/2h12m59s 97 (9%)
+#### OK       Mar 02 22:21:25 timeout=0 error=0  0h13m02s/2h12m59s 98 (9%)
+#### OK       Mar 02 22:21:33 timeout=0 error=0  0h13m10s/2h12m59s 99 (9%)
+#### OK       Mar 02 22:21:41 timeout=0 error=0  0h13m18s/2h13m00s 100 (10%)
+#### OK       Mar 02 22:21:49 timeout=0 error=0  0h13m25s/2h12m50s 101 (10%)
+#### OK       Mar 02 22:21:56 timeout=0 error=0  0h13m33s/2h12m50s 102 (10%)
+#### OK       Mar 02 22:22:04 timeout=0 error=0  0h13m41s/2h12m50s 103 (10%)
+#### OK       Mar 02 22:22:12 timeout=0 error=0  0h13m49s/2h12m51s 104 (10%)
+#### OK       Mar 02 22:22:20 timeout=0 error=0  0h13m57s/2h12m51s 105 (10%)
+#### OK       Mar 02 22:22:28 timeout=0 error=0  0h14m05s/2h12m51s 106 (10%)
+#### OK       Mar 02 22:22:36 timeout=0 error=0  0h14m13s/2h12m51s 107 (10%)
+#### OK       Mar 02 22:22:44 timeout=0 error=0  0h14m21s/2h12m52s 108 (10%)
+#### OK       Mar 02 22:22:52 timeout=0 error=0  0h14m29s/2h12m52s 109 (10%)
+#### OK       Mar 02 22:23:00 timeout=0 error=0  0h14m37s/2h12m52s 110 (11%)
+#### OK       Mar 02 22:23:08 timeout=0 error=0  0h14m45s/2h12m52s 111 (11%)
+#### OK       Mar 02 22:23:16 timeout=0 error=0  0h14m53s/2h12m53s 112 (11%)
+#### OK       Mar 02 22:23:24 timeout=0 error=0  0h15m01s/2h12m53s 113 (11%)
+#### OK       Mar 02 22:23:31 timeout=0 error=0  0h15m08s/2h12m44s 114 (11%)
+#### OK       Mar 02 22:23:39 timeout=0 error=0  0h15m16s/2h12m45s 115 (11%)
+#### OK       Mar 02 22:23:47 timeout=0 error=0  0h15m24s/2h12m45s 116 (11%)
+#### OK       Mar 02 22:23:56 timeout=0 error=0  0h15m33s/2h12m54s 117 (11%)
+#### OK       Mar 02 22:24:04 timeout=0 error=0  0h15m41s/2h12m54s 118 (11%)
+#### OK       Mar 02 22:24:12 timeout=0 error=0  0h15m49s/2h12m54s 119 (11%)
+#### OK       Mar 02 22:24:19 timeout=0 error=0  0h15m56s/2h12m46s 120 (12%)
+#### OK       Mar 02 22:24:27 timeout=0 error=0  0h16m04s/2h12m46s 121 (12%)
+#### OK       Mar 02 22:24:35 timeout=0 error=0  0h16m12s/2h12m47s 122 (12%)
+#### OK       Mar 02 22:24:43 timeout=0 error=0  0h16m20s/2h12m47s 123 (12%)
+#### OK       Mar 02 22:24:51 timeout=0 error=0  0h16m28s/2h12m47s 124 (12%)
+#### OK       Mar 02 22:24:59 timeout=0 error=0  0h16m36s/2h12m48s 125 (12%)
+#### OK       Mar 02 22:25:07 timeout=0 error=0  0h16m44s/2h12m48s 126 (12%)
+#### OK       Mar 02 22:25:15 timeout=0 error=0  0h16m52s/2h12m48s 127 (12%)
+#### OK       Mar 02 22:25:23 timeout=0 error=0  0h17m00s/2h12m48s 128 (12%)
+#### OK       Mar 02 22:25:31 timeout=0 error=0  0h17m08s/2h12m48s 129 (12%)
+#### OK       Mar 02 22:25:39 timeout=0 error=0  0h17m16s/2h12m49s 130 (13%)
+#### OK       Mar 02 22:25:46 timeout=0 error=0  0h17m23s/2h12m41s 131 (13%)
+#### OK       Mar 02 22:25:55 timeout=0 error=0  0h17m32s/2h12m49s 132 (13%)
+#### OK       Mar 02 22:26:02 timeout=0 error=0  0h17m39s/2h12m42s 133 (13%)
+#### OK       Mar 02 22:26:10 timeout=0 error=0  0h17m47s/2h12m42s 134 (13%)
+#### OK       Mar 02 22:26:18 timeout=0 error=0  0h17m55s/2h12m42s 135 (13%)
+#### OK       Mar 02 22:26:26 timeout=0 error=0  0h18m03s/2h12m43s 136 (13%)
+#### OK       Mar 02 22:26:34 timeout=0 error=0  0h18m11s/2h12m43s 137 (13%)
+#### OK       Mar 02 22:26:42 timeout=0 error=0  0h18m19s/2h12m43s 138 (13%)
+#### OK       Mar 02 22:26:50 timeout=0 error=0  0h18m27s/2h12m44s 139 (13%)
+#### OK       Mar 02 22:26:58 timeout=0 error=0  0h18m35s/2h12m44s 140 (14%)
+#### OK       Mar 02 22:27:06 timeout=0 error=0  0h18m43s/2h12m44s 141 (14%)
+#### OK       Mar 02 22:27:14 timeout=0 error=0  0h18m51s/2h12m44s 142 (14%)
+#### OK       Mar 02 22:27:22 timeout=0 error=0  0h18m59s/2h12m45s 143 (14%)
+#### OK       Mar 02 22:27:30 timeout=0 error=0  0h19m07s/2h12m45s 144 (14%)
+#### OK       Mar 02 22:27:38 timeout=0 error=0  0h19m15s/2h12m45s 145 (14%)
+#### OK       Mar 02 22:27:46 timeout=0 error=0  0h19m23s/2h12m45s 146 (14%)
+#### OK       Mar 02 22:27:54 timeout=0 error=0  0h19m31s/2h12m45s 147 (14%)
+#### OK       Mar 02 22:28:02 timeout=0 error=0  0h19m39s/2h12m46s 148 (14%)
+#### OK       Mar 02 22:28:10 timeout=0 error=0  0h19m47s/2h12m46s 149 (14%)
+#### OK       Mar 02 22:28:18 timeout=0 error=0  0h19m55s/2h12m46s 150 (15%)
+#### OK       Mar 02 22:28:26 timeout=0 error=0  0h20m03s/2h12m46s 151 (15%)
+#### OK       Mar 02 22:28:34 timeout=0 error=0  0h20m11s/2h12m47s 152 (15%)
+#### OK       Mar 02 22:28:42 timeout=0 error=0  0h20m19s/2h12m47s 153 (15%)
+#### OK       Mar 02 22:28:50 timeout=0 error=0  0h20m27s/2h12m47s 154 (15%)
+#### OK       Mar 02 22:28:58 timeout=0 error=0  0h20m35s/2h12m47s 155 (15%)
+#### OK       Mar 02 22:29:06 timeout=0 error=0  0h20m43s/2h12m47s 156 (15%)
+#### OK       Mar 02 22:29:14 timeout=0 error=0  0h20m51s/2h12m48s 157 (15%)
+#### OK       Mar 02 22:29:22 timeout=0 error=0  0h20m59s/2h12m48s 158 (15%)
+#### OK       Mar 02 22:29:30 timeout=0 error=0  0h21m07s/2h12m48s 159 (15%)
+#### OK       Mar 02 22:29:38 timeout=0 error=0  0h21m15s/2h12m48s 160 (16%)
+#### OK       Mar 02 22:29:46 timeout=0 error=0  0h21m23s/2h12m48s 161 (16%)
+#### OK       Mar 02 22:29:54 timeout=0 error=0  0h21m31s/2h12m49s 162 (16%)
+#### OK       Mar 02 22:30:02 timeout=0 error=0  0h21m39s/2h12m49s 163 (16%)
+#### OK       Mar 02 22:30:10 timeout=0 error=0  0h21m47s/2h12m49s 164 (16%)
+#### OK       Mar 02 22:30:18 timeout=0 error=0  0h21m55s/2h12m49s 165 (16%)
+#### OK       Mar 02 22:30:26 timeout=0 error=0  0h22m03s/2h12m49s 166 (16%)
+#### OK       Mar 02 22:30:34 timeout=0 error=0  0h22m11s/2h12m50s 167 (16%)
+#### OK       Mar 02 22:30:42 timeout=0 error=0  0h22m19s/2h12m50s 168 (16%)
+#### OK       Mar 02 22:30:50 timeout=0 error=0  0h22m27s/2h12m50s 169 (16%)
+#### OK       Mar 02 22:30:58 timeout=0 error=0  0h22m35s/2h12m50s 170 (17%)
+#### OK       Mar 02 22:31:06 timeout=0 error=0  0h22m43s/2h12m50s 171 (17%)
+#### OK       Mar 02 22:31:14 timeout=0 error=0  0h22m51s/2h12m50s 172 (17%)
+#### OK       Mar 02 22:31:22 timeout=0 error=0  0h22m59s/2h12m51s 173 (17%)
+#### OK       Mar 02 22:31:30 timeout=0 error=0  0h23m07s/2h12m51s 174 (17%)
+#### OK       Mar 02 22:31:38 timeout=0 error=0  0h23m15s/2h12m51s 175 (17%)
+#### OK       Mar 02 22:31:46 timeout=0 error=0  0h23m23s/2h12m51s 176 (17%)
+#### OK       Mar 02 22:31:54 timeout=0 error=0  0h23m31s/2h12m51s 177 (17%)
+#### OK       Mar 02 22:32:02 timeout=0 error=0  0h23m39s/2h12m51s 178 (17%)
+#### OK       Mar 02 22:32:10 timeout=0 error=0  0h23m47s/2h12m52s 179 (17%)
+#### OK       Mar 02 22:32:18 timeout=0 error=0  0h23m55s/2h12m52s 180 (18%)
+#### OK       Mar 02 22:32:26 timeout=0 error=0  0h24m03s/2h12m52s 181 (18%)
+#### OK       Mar 02 22:32:34 timeout=0 error=0  0h24m11s/2h12m52s 182 (18%)
+#### OK       Mar 02 22:32:42 timeout=0 error=0  0h24m19s/2h12m52s 183 (18%)
+#### OK       Mar 02 22:32:50 timeout=0 error=0  0h24m27s/2h12m52s 184 (18%)
+#### OK       Mar 02 22:32:58 timeout=0 error=0  0h24m35s/2h12m52s 185 (18%)
+#### OK       Mar 02 22:33:06 timeout=0 error=0  0h24m43s/2h12m53s 186 (18%)
+#### OK       Mar 02 22:33:15 timeout=0 error=0  0h24m52s/2h12m58s 187 (18%)
+#### OK       Mar 02 22:33:22 timeout=0 error=0  0h24m59s/2h12m53s 188 (18%)
+#### OK       Mar 02 22:33:31 timeout=0 error=0  0h25m08s/2h12m58s 189 (18%)
+#### OK       Mar 02 22:33:39 timeout=0 error=0  0h25m16s/2h12m58s 190 (19%)
+#### OK       Mar 02 22:33:46 timeout=0 error=0  0h25m23s/2h12m53s 191 (19%)
+#### OK       Mar 02 22:33:55 timeout=0 error=0  0h25m32s/2h12m59s 192 (19%)
+#### OK       Mar 02 22:34:03 timeout=0 error=0  0h25m40s/2h12m59s 193 (19%)
+#### OK       Mar 02 22:34:11 timeout=0 error=0  0h25m48s/2h12m59s 194 (19%)
+#### OK       Mar 02 22:34:19 timeout=0 error=0  0h25m56s/2h12m59s 195 (19%)
+#### OK       Mar 02 22:34:27 timeout=0 error=0  0h26m04s/2h12m59s 196 (19%)
+#### OK       Mar 02 22:34:35 timeout=0 error=0  0h26m12s/2h12m59s 197 (19%)
+#### OK       Mar 02 22:34:43 timeout=0 error=0  0h26m20s/2h12m59s 198 (19%)
+#### OK       Mar 02 22:34:51 timeout=0 error=0  0h26m28s/2h12m59s 199 (19%)
+#### OK       Mar 02 22:34:59 timeout=0 error=0  0h26m36s/2h13m00s 200 (20%)
+#### OK       Mar 02 22:35:07 timeout=0 error=0  0h26m44s/2h13m00s 201 (20%)
+#### OK       Mar 02 22:35:15 timeout=0 error=0  0h26m52s/2h13m00s 202 (20%)
+#### OK       Mar 02 22:35:23 timeout=0 error=0  0h27m00s/2h13m00s 203 (20%)
+#### OK       Mar 02 22:35:31 timeout=0 error=0  0h27m08s/2h13m00s 204 (20%)
+#### OK       Mar 02 22:35:39 timeout=0 error=0  0h27m16s/2h13m00s 205 (20%)
+#### OK       Mar 02 22:35:46 timeout=0 error=0  0h27m23s/2h12m55s 206 (20%)
+#### OK       Mar 02 22:35:54 timeout=0 error=0  0h27m31s/2h12m55s 207 (20%)
+#### OK       Mar 02 22:36:02 timeout=0 error=0  0h27m39s/2h12m55s 208 (20%)
+#### OK       Mar 02 22:36:10 timeout=0 error=0  0h27m47s/2h12m56s 209 (20%)
+#### OK       Mar 02 22:36:18 timeout=0 error=0  0h27m55s/2h12m56s 210 (21%)
+#### OK       Mar 02 22:36:26 timeout=0 error=0  0h28m03s/2h12m56s 211 (21%)
+#### OK       Mar 02 22:36:34 timeout=0 error=0  0h28m11s/2h12m56s 212 (21%)
+#### OK       Mar 02 22:36:41 timeout=0 error=0  0h28m18s/2h12m51s 213 (21%)
+#### OK       Mar 02 22:36:49 timeout=0 error=0  0h28m26s/2h12m51s 214 (21%)
+#### OK       Mar 02 22:36:57 timeout=0 error=0  0h28m34s/2h12m52s 215 (21%)
+#### OK       Mar 02 22:37:05 timeout=0 error=0  0h28m42s/2h12m52s 216 (21%)
+#### OK       Mar 02 22:37:13 timeout=0 error=0  0h28m50s/2h12m52s 217 (21%)
+#### OK       Mar 02 22:37:21 timeout=0 error=0  0h28m58s/2h12m52s 218 (21%)
+#### OK       Mar 02 22:37:29 timeout=0 error=0  0h29m06s/2h12m52s 219 (21%)
+#### OK       Mar 02 22:37:37 timeout=0 error=0  0h29m14s/2h12m52s 220 (22%)
+#### OK       Mar 02 22:37:45 timeout=0 error=0  0h29m22s/2h12m52s 221 (22%)
+#### OK       Mar 02 22:37:53 timeout=0 error=0  0h29m30s/2h12m52s 222 (22%)
+#### OK       Mar 02 22:38:01 timeout=0 error=0  0h29m38s/2h12m53s 223 (22%)
+#### OK       Mar 02 22:38:09 timeout=0 error=0  0h29m46s/2h12m53s 224 (22%)
+#### OK       Mar 02 22:38:17 timeout=0 error=0  0h29m54s/2h12m53s 225 (22%)
+#### OK       Mar 02 22:38:25 timeout=0 error=0  0h30m02s/2h12m53s 226 (22%)
+#### OK       Mar 02 22:38:33 timeout=0 error=0  0h30m10s/2h12m53s 227 (22%)
+#### OK       Mar 02 22:38:41 timeout=0 error=0  0h30m18s/2h12m53s 228 (22%)
+#### OK       Mar 02 22:38:48 timeout=0 error=0  0h30m25s/2h12m49s 229 (22%)
+#### OK       Mar 02 22:38:55 timeout=0 error=0  0h30m32s/2h12m45s 230 (23%)
+#### OK       Mar 02 22:39:02 timeout=0 error=0  0h30m39s/2h12m41s 231 (23%)
+#### OK       Mar 02 22:39:09 timeout=0 error=0  0h30m46s/2h12m36s 232 (23%)
+#### OK       Mar 02 22:39:16 timeout=0 error=0  0h30m53s/2h12m32s 233 (23%)
+#### OK       Mar 02 22:39:23 timeout=0 error=0  0h31m00s/2h12m28s 234 (23%)
+#### OK       Mar 02 22:39:30 timeout=0 error=0  0h31m07s/2h12m24s 235 (23%)
+#### OK       Mar 02 22:39:37 timeout=0 error=0  0h31m14s/2h12m20s 236 (23%)
+#### OK       Mar 02 22:39:43 timeout=0 error=0  0h31m20s/2h12m12s 237 (23%)
+#### OK       Mar 02 22:39:50 timeout=0 error=0  0h31m27s/2h12m08s 238 (23%)
+#### OK       Mar 02 22:39:57 timeout=0 error=0  0h31m34s/2h12m04s 239 (23%)
+#### OK       Mar 02 22:40:04 timeout=0 error=0  0h31m41s/2h12m00s 240 (24%)
+#### OK       Mar 02 22:40:11 timeout=0 error=0  0h31m48s/2h11m57s 241 (24%)
+#### OK       Mar 02 22:40:18 timeout=0 error=0  0h31m55s/2h11m53s 242 (24%)
+#### OK       Mar 02 22:40:25 timeout=0 error=0  0h32m02s/2h11m49s 243 (24%)
+#### OK       Mar 02 22:40:32 timeout=0 error=0  0h32m09s/2h11m45s 244 (24%)
+#### OK       Mar 02 22:40:39 timeout=0 error=0  0h32m16s/2h11m42s 245 (24%)
+#### OK       Mar 02 22:40:46 timeout=0 error=0  0h32m23s/2h11m38s 246 (24%)
+#### OK       Mar 02 22:40:53 timeout=0 error=0  0h32m30s/2h11m34s 247 (24%)
+#### OK       Mar 02 22:41:00 timeout=0 error=0  0h32m37s/2h11m31s 248 (24%)
+#### OK       Mar 02 22:41:07 timeout=0 error=0  0h32m44s/2h11m27s 249 (24%)
+#### OK       Mar 02 22:41:14 timeout=0 error=0  0h32m51s/2h11m24s 250 (25%)
+#### OK       Mar 02 22:41:21 timeout=0 error=0  0h32m58s/2h11m20s 251 (25%)
+#### OK       Mar 02 22:41:28 timeout=0 error=0  0h33m05s/2h11m16s 252 (25%)
+#### OK       Mar 02 22:41:34 timeout=0 error=0  0h33m11s/2h11m09s 253 (25%)
+#### OK       Mar 02 22:41:41 timeout=0 error=0  0h33m18s/2h11m06s 254 (25%)
+#### OK       Mar 02 22:41:48 timeout=0 error=0  0h33m25s/2h11m02s 255 (25%)
+#### OK       Mar 02 22:41:55 timeout=0 error=0  0h33m32s/2h10m59s 256 (25%)
+#### OK       Mar 02 22:42:02 timeout=0 error=0  0h33m39s/2h10m56s 257 (25%)
+#### OK       Mar 02 22:42:09 timeout=0 error=0  0h33m46s/2h10m52s 258 (25%)
+#### OK       Mar 02 22:42:16 timeout=0 error=0  0h33m53s/2h10m49s 259 (25%)
+#### OK       Mar 02 22:42:23 timeout=0 error=0  0h34m00s/2h10m46s 260 (26%)
+#### OK       Mar 02 22:42:30 timeout=0 error=0  0h34m07s/2h10m42s 261 (26%)
+#### OK       Mar 02 22:42:37 timeout=0 error=0  0h34m14s/2h10m39s 262 (26%)
+#### OK       Mar 02 22:42:44 timeout=0 error=0  0h34m21s/2h10m36s 263 (26%)
+#### OK       Mar 02 22:42:51 timeout=0 error=0  0h34m28s/2h10m33s 264 (26%)
+#### OK       Mar 02 22:42:58 timeout=0 error=0  0h34m35s/2h10m30s 265 (26%)
+#### OK       Mar 02 22:43:04 timeout=0 error=0  0h34m41s/2h10m23s 266 (26%)
+#### OK       Mar 02 22:43:11 timeout=0 error=0  0h34m48s/2h10m20s 267 (26%)
+#### OK       Mar 02 22:43:18 timeout=0 error=0  0h34m55s/2h10m17s 268 (26%)
+#### OK       Mar 02 22:43:25 timeout=0 error=0  0h35m02s/2h10m14s 269 (26%)
+#### OK       Mar 02 22:43:32 timeout=0 error=0  0h35m09s/2h10m11s 270 (27%)
+#### OK       Mar 02 22:43:39 timeout=0 error=0  0h35m16s/2h10m08s 271 (27%)
+#### OK       Mar 02 22:43:46 timeout=0 error=0  0h35m23s/2h10m05s 272 (27%)
+#### OK       Mar 02 22:43:53 timeout=0 error=0  0h35m30s/2h10m02s 273 (27%)
+#### OK       Mar 02 22:44:00 timeout=0 error=0  0h35m37s/2h09m59s 274 (27%)
+#### OK       Mar 02 22:44:07 timeout=0 error=0  0h35m44s/2h09m56s 275 (27%)
+#### OK       Mar 02 22:44:14 timeout=0 error=0  0h35m51s/2h09m53s 276 (27%)
+#### OK       Mar 02 22:44:21 timeout=0 error=0  0h35m58s/2h09m50s 277 (27%)
+#### OK       Mar 02 22:44:27 timeout=0 error=0  0h36m04s/2h09m44s 278 (27%)
+#### OK       Mar 02 22:44:34 timeout=0 error=0  0h36m11s/2h09m41s 279 (27%)
+#### OK       Mar 02 22:44:41 timeout=0 error=0  0h36m18s/2h09m38s 280 (28%)
+#### OK       Mar 02 22:44:48 timeout=0 error=0  0h36m25s/2h09m35s 281 (28%)
+#### OK       Mar 02 22:44:55 timeout=0 error=0  0h36m32s/2h09m33s 282 (28%)
+#### OK       Mar 02 22:45:02 timeout=0 error=0  0h36m39s/2h09m30s 283 (28%)
+#### OK       Mar 02 22:45:09 timeout=0 error=0  0h36m46s/2h09m27s 284 (28%)
+#### OK       Mar 02 22:45:16 timeout=0 error=0  0h36m53s/2h09m24s 285 (28%)
+#### OK       Mar 02 22:45:23 timeout=0 error=0  0h37m00s/2h09m22s 286 (28%)
+#### OK       Mar 02 22:45:30 timeout=0 error=0  0h37m07s/2h09m19s 287 (28%)
+#### OK       Mar 02 22:45:37 timeout=0 error=0  0h37m14s/2h09m16s 288 (28%)
+#### OK       Mar 02 22:45:44 timeout=0 error=0  0h37m21s/2h09m14s 289 (28%)
+#### OK       Mar 02 22:45:50 timeout=0 error=0  0h37m27s/2h09m08s 290 (29%)
+#### OK       Mar 02 22:45:57 timeout=0 error=0  0h37m34s/2h09m05s 291 (29%)
+#### OK       Mar 02 22:46:04 timeout=0 error=0  0h37m41s/2h09m03s 292 (29%)
+#### OK       Mar 02 22:46:11 timeout=0 error=0  0h37m48s/2h09m00s 293 (29%)
+#### OK       Mar 02 22:46:18 timeout=0 error=0  0h37m55s/2h08m58s 294 (29%)
+#### OK       Mar 02 22:46:25 timeout=0 error=0  0h38m02s/2h08m55s 295 (29%)
+#### OK       Mar 02 22:46:32 timeout=0 error=0  0h38m09s/2h08m53s 296 (29%)
+#### OK       Mar 02 22:46:39 timeout=0 error=0  0h38m16s/2h08m50s 297 (29%)
+#### OK       Mar 02 22:46:46 timeout=0 error=0  0h38m23s/2h08m48s 298 (29%)
+#### OK       Mar 02 22:46:53 timeout=0 error=0  0h38m30s/2h08m45s 299 (29%)
+#### OK       Mar 02 22:47:00 timeout=0 error=0  0h38m37s/2h08m43s 300 (30%)
+#### OK       Mar 02 22:47:06 timeout=0 error=0  0h38m43s/2h08m37s 301 (30%)
+#### OK       Mar 02 22:47:13 timeout=0 error=0  0h38m50s/2h08m35s 302 (30%)
+#### OK       Mar 02 22:47:20 timeout=0 error=0  0h38m57s/2h08m32s 303 (30%)
+#### OK       Mar 02 22:47:27 timeout=0 error=0  0h39m04s/2h08m30s 304 (30%)
+#### OK       Mar 02 22:47:34 timeout=0 error=0  0h39m11s/2h08m28s 305 (30%)
+#### OK       Mar 02 22:47:41 timeout=0 error=0  0h39m18s/2h08m25s 306 (30%)
+#### OK       Mar 02 22:47:48 timeout=0 error=0  0h39m25s/2h08m23s 307 (30%)
+#### OK       Mar 02 22:47:54 timeout=0 error=0  0h39m31s/2h08m18s 308 (30%)
+#### OK       Mar 02 22:48:01 timeout=0 error=0  0h39m38s/2h08m15s 309 (30%)
+#### OK       Mar 02 22:48:08 timeout=0 error=0  0h39m45s/2h08m13s 310 (31%)
+#### OK       Mar 02 22:48:15 timeout=0 error=0  0h39m52s/2h08m11s 311 (31%)
+#### OK       Mar 02 22:48:22 timeout=0 error=0  0h39m59s/2h08m09s 312 (31%)
+#### OK       Mar 02 22:48:29 timeout=0 error=0  0h40m06s/2h08m06s 313 (31%)
+#### OK       Mar 02 22:48:36 timeout=0 error=0  0h40m13s/2h08m04s 314 (31%)
+#### OK       Mar 02 22:48:43 timeout=0 error=0  0h40m20s/2h08m02s 315 (31%)
+#### OK       Mar 02 22:48:50 timeout=0 error=0  0h40m27s/2h08m00s 316 (31%)
+#### OK       Mar 02 22:48:57 timeout=0 error=0  0h40m34s/2h07m58s 317 (31%)
+#### OK       Mar 02 22:49:04 timeout=0 error=0  0h40m41s/2h07m56s 318 (31%)
+#### OK       Mar 02 22:49:11 timeout=0 error=0  0h40m48s/2h07m53s 319 (31%)
+#### OK       Mar 02 22:49:18 timeout=0 error=0  0h40m55s/2h07m51s 320 (32%)
+#### OK       Mar 02 22:49:24 timeout=0 error=0  0h41m01s/2h07m46s 321 (32%)
+#### OK       Mar 02 22:49:31 timeout=0 error=0  0h41m08s/2h07m44s 322 (32%)
+#### OK       Mar 02 22:49:38 timeout=0 error=0  0h41m15s/2h07m42s 323 (32%)
+#### OK       Mar 02 22:49:45 timeout=0 error=0  0h41m22s/2h07m40s 324 (32%)
+#### OK       Mar 02 22:49:52 timeout=0 error=0  0h41m29s/2h07m38s 325 (32%)
+#### OK       Mar 02 22:49:59 timeout=0 error=0  0h41m36s/2h07m36s 326 (32%)
+#### OK       Mar 02 22:50:06 timeout=0 error=0  0h41m43s/2h07m34s 327 (32%)
+#### OK       Mar 02 22:50:13 timeout=0 error=0  0h41m50s/2h07m32s 328 (32%)
+#### OK       Mar 02 22:50:20 timeout=0 error=0  0h41m57s/2h07m30s 329 (32%)
+#### OK       Mar 02 22:50:27 timeout=0 error=0  0h42m04s/2h07m28s 330 (33%)
+#### OK       Mar 02 22:50:34 timeout=0 error=0  0h42m11s/2h07m26s 331 (33%)
+#### OK       Mar 02 22:50:41 timeout=0 error=0  0h42m18s/2h07m24s 332 (33%)
+#### OK       Mar 02 22:50:48 timeout=0 error=0  0h42m25s/2h07m22s 333 (33%)
+#### OK       Mar 02 22:50:55 timeout=0 error=0  0h42m32s/2h07m20s 334 (33%)
+#### OK       Mar 02 22:51:01 timeout=0 error=0  0h42m38s/2h07m15s 335 (33%)
+#### OK       Mar 02 22:51:08 timeout=0 error=0  0h42m45s/2h07m13s 336 (33%)
+#### OK       Mar 02 22:51:15 timeout=0 error=0  0h42m52s/2h07m12s 337 (33%)
+#### OK       Mar 02 22:51:22 timeout=0 error=0  0h42m59s/2h07m10s 338 (33%)
+#### OK       Mar 02 22:51:29 timeout=0 error=0  0h43m06s/2h07m08s 339 (33%)
+#### OK       Mar 02 22:51:36 timeout=0 error=0  0h43m13s/2h07m06s 340 (34%)
+#### OK       Mar 02 22:51:43 timeout=0 error=0  0h43m20s/2h07m04s 341 (34%)
+#### OK       Mar 02 22:51:50 timeout=0 error=0  0h43m27s/2h07m02s 342 (34%)
+#### OK       Mar 02 22:51:57 timeout=0 error=0  0h43m34s/2h07m00s 343 (34%)
+#### OK       Mar 02 22:52:04 timeout=0 error=0  0h43m41s/2h06m59s 344 (34%)
+#### OK       Mar 02 22:52:11 timeout=0 error=0  0h43m48s/2h06m57s 345 (34%)
+#### OK       Mar 02 22:52:18 timeout=0 error=0  0h43m55s/2h06m55s 346 (34%)
+#### OK       Mar 02 22:52:24 timeout=0 error=0  0h44m01s/2h06m50s 347 (34%)
+#### OK       Mar 02 22:52:31 timeout=0 error=0  0h44m08s/2h06m49s 348 (34%)
+#### OK       Mar 02 22:52:38 timeout=0 error=0  0h44m15s/2h06m47s 349 (34%)
+#### OK       Mar 02 22:52:45 timeout=0 error=0  0h44m22s/2h06m45s 350 (35%)
+#### OK       Mar 02 22:52:52 timeout=0 error=0  0h44m29s/2h06m43s 351 (35%)
+#### OK       Mar 02 22:52:59 timeout=0 error=0  0h44m36s/2h06m42s 352 (35%)
+#### OK       Mar 02 22:53:06 timeout=0 error=0  0h44m43s/2h06m40s 353 (35%)
+#### OK       Mar 02 22:53:13 timeout=0 error=0  0h44m50s/2h06m38s 354 (35%)
+#### OK       Mar 02 22:53:20 timeout=0 error=0  0h44m57s/2h06m37s 355 (35%)
+#### OK       Mar 02 22:53:27 timeout=0 error=0  0h45m04s/2h06m35s 356 (35%)
+#### OK       Mar 02 22:53:34 timeout=0 error=0  0h45m11s/2h06m33s 357 (35%)
+#### OK       Mar 02 22:53:41 timeout=0 error=0  0h45m18s/2h06m32s 358 (35%)
+#### OK       Mar 02 22:53:48 timeout=0 error=0  0h45m25s/2h06m30s 359 (35%)
+#### OK       Mar 02 22:53:54 timeout=0 error=0  0h45m31s/2h06m26s 360 (36%)
+#### OK       Mar 02 22:54:02 timeout=0 error=0  0h45m39s/2h06m27s 361 (36%)
+#### OK       Mar 02 22:54:08 timeout=0 error=0  0h45m45s/2h06m22s 362 (36%)
+#### OK       Mar 02 22:54:15 timeout=0 error=0  0h45m52s/2h06m21s 363 (36%)
+#### OK       Mar 02 22:54:22 timeout=0 error=0  0h45m59s/2h06m19s 364 (36%)
+#### OK       Mar 02 22:54:29 timeout=0 error=0  0h46m06s/2h06m18s 365 (36%)
+#### OK       Mar 02 22:54:36 timeout=0 error=0  0h46m13s/2h06m16s 366 (36%)
+#### OK       Mar 02 22:54:43 timeout=0 error=0  0h46m20s/2h06m14s 367 (36%)
+#### OK       Mar 02 22:54:50 timeout=0 error=0  0h46m27s/2h06m13s 368 (36%)
+#### OK       Mar 02 22:54:57 timeout=0 error=0  0h46m34s/2h06m11s 369 (36%)
+#### OK       Mar 02 22:55:04 timeout=0 error=0  0h46m41s/2h06m10s 370 (37%)
+#### OK       Mar 02 22:55:11 timeout=0 error=0  0h46m48s/2h06m08s 371 (37%)
+#### OK       Mar 02 22:55:18 timeout=0 error=0  0h46m55s/2h06m07s 372 (37%)
+#### OK       Mar 02 22:55:25 timeout=0 error=0  0h47m02s/2h06m05s 373 (37%)
+#### OK       Mar 02 22:55:32 timeout=0 error=0  0h47m09s/2h06m04s 374 (37%)
+#### OK       Mar 02 22:55:39 timeout=0 error=0  0h47m16s/2h06m02s 375 (37%)
+#### OK       Mar 02 22:55:46 timeout=0 error=0  0h47m23s/2h06m01s 376 (37%)
+#### OK       Mar 02 22:55:53 timeout=0 error=0  0h47m30s/2h05m59s 377 (37%)
+#### OK       Mar 02 22:56:00 timeout=0 error=0  0h47m37s/2h05m58s 378 (37%)
+#### OK       Mar 02 22:56:07 timeout=0 error=0  0h47m44s/2h05m56s 379 (37%)
+#### OK       Mar 02 22:56:14 timeout=0 error=0  0h47m51s/2h05m55s 380 (38%)
+#### OK       Mar 02 22:56:21 timeout=0 error=0  0h47m58s/2h05m53s 381 (38%)
+#### OK       Mar 02 22:56:27 timeout=0 error=0  0h48m04s/2h05m49s 382 (38%)
+#### OK       Mar 02 22:56:34 timeout=0 error=0  0h48m11s/2h05m48s 383 (38%)
+#### OK       Mar 02 22:56:41 timeout=0 error=0  0h48m18s/2h05m46s 384 (38%)
+#### OK       Mar 02 22:56:48 timeout=0 error=0  0h48m25s/2h05m45s 385 (38%)
+#### OK       Mar 02 22:56:55 timeout=0 error=0  0h48m32s/2h05m44s 386 (38%)
+#### OK       Mar 02 22:57:02 timeout=0 error=0  0h48m39s/2h05m42s 387 (38%)
+#### OK       Mar 02 22:57:09 timeout=0 error=0  0h48m46s/2h05m41s 388 (38%)
+#### OK       Mar 02 22:57:16 timeout=0 error=0  0h48m53s/2h05m39s 389 (38%)
+#### OK       Mar 02 22:57:23 timeout=0 error=0  0h49m00s/2h05m38s 390 (39%)
+#### OK       Mar 02 22:57:30 timeout=0 error=0  0h49m07s/2h05m37s 391 (39%)
+#### OK       Mar 02 22:57:37 timeout=0 error=0  0h49m14s/2h05m35s 392 (39%)
+#### OK       Mar 02 22:57:44 timeout=0 error=0  0h49m21s/2h05m34s 393 (39%)
+#### OK       Mar 02 22:57:51 timeout=0 error=0  0h49m28s/2h05m32s 394 (39%)
+#### OK       Mar 02 22:57:57 timeout=0 error=0  0h49m34s/2h05m29s 395 (39%)
+#### OK       Mar 02 22:58:04 timeout=0 error=0  0h49m41s/2h05m27s 396 (39%)
+#### OK       Mar 02 22:58:11 timeout=0 error=0  0h49m48s/2h05m26s 397 (39%)
+#### OK       Mar 02 22:58:18 timeout=0 error=0  0h49m55s/2h05m25s 398 (39%)
+#### OK       Mar 02 22:58:25 timeout=0 error=0  0h50m02s/2h05m23s 399 (39%)
+#### OK       Mar 02 22:58:32 timeout=0 error=0  0h50m09s/2h05m22s 400 (40%)
+#### OK       Mar 02 22:58:39 timeout=0 error=0  0h50m16s/2h05m21s 401 (40%)
+#### OK       Mar 02 22:58:46 timeout=0 error=0  0h50m23s/2h05m19s 402 (40%)
+#### OK       Mar 02 22:58:53 timeout=0 error=0  0h50m30s/2h05m18s 403 (40%)
+#### OK       Mar 02 22:59:00 timeout=0 error=0  0h50m37s/2h05m17s 404 (40%)
+#### OK       Mar 02 22:59:07 timeout=0 error=0  0h50m44s/2h05m16s 405 (40%)
+#### OK       Mar 02 22:59:14 timeout=0 error=0  0h50m51s/2h05m14s 406 (40%)
+#### OK       Mar 02 22:59:21 timeout=0 error=0  0h50m58s/2h05m13s 407 (40%)
+#### OK       Mar 02 22:59:28 timeout=0 error=0  0h51m05s/2h05m12s 408 (40%)
+#### OK       Mar 02 22:59:35 timeout=0 error=0  0h51m12s/2h05m11s 409 (40%)
+#### OK       Mar 02 22:59:42 timeout=0 error=0  0h51m19s/2h05m09s 410 (41%)
+#### OK       Mar 02 22:59:49 timeout=0 error=0  0h51m26s/2h05m08s 411 (41%)
+#### OK       Mar 02 22:59:56 timeout=0 error=0  0h51m33s/2h05m07s 412 (41%)
+#### OK       Mar 02 23:00:03 timeout=0 error=0  0h51m40s/2h05m06s 413 (41%)
+#### OK       Mar 02 23:00:10 timeout=0 error=0  0h51m47s/2h05m04s 414 (41%)
+#### OK       Mar 02 23:00:16 timeout=0 error=0  0h51m53s/2h05m01s 415 (41%)
+#### OK       Mar 02 23:00:23 timeout=0 error=0  0h52m00s/2h05m00s 416 (41%)
+#### OK       Mar 02 23:00:30 timeout=0 error=0  0h52m07s/2h04m58s 417 (41%)
+#### OK       Mar 02 23:00:37 timeout=0 error=0  0h52m14s/2h04m57s 418 (41%)
+#### OK       Mar 02 23:00:44 timeout=0 error=0  0h52m21s/2h04m56s 419 (41%)
+#### OK       Mar 02 23:00:51 timeout=0 error=0  0h52m28s/2h04m55s 420 (42%)
+#### OK       Mar 02 23:00:58 timeout=0 error=0  0h52m35s/2h04m54s 421 (42%)
+#### OK       Mar 02 23:01:05 timeout=0 error=0  0h52m42s/2h04m52s 422 (42%)
+#### OK       Mar 02 23:01:12 timeout=0 error=0  0h52m49s/2h04m51s 423 (42%)
+#### OK       Mar 02 23:01:19 timeout=0 error=0  0h52m56s/2h04m50s 424 (42%)
+#### OK       Mar 02 23:01:26 timeout=0 error=0  0h53m03s/2h04m49s 425 (42%)
+#### OK       Mar 02 23:01:33 timeout=0 error=0  0h53m10s/2h04m48s 426 (42%)
+#### OK       Mar 02 23:01:39 timeout=0 error=0  0h53m16s/2h04m44s 427 (42%)
+#### OK       Mar 02 23:01:46 timeout=0 error=0  0h53m23s/2h04m43s 428 (42%)
+../test.sh: line 54: 78029 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:18 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 1024
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9729
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9731
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 6.16376ms -> ~162.239Hz
+[Info] [VTRgbPacketProcessor] avg. time: 6.83143ms -> ~146.382Hz
+#### TIMEOUT  Mar 02 23:02:07 timeout=1 error=0  0h53m44s/2h05m15s 429 (42%)
+../test.sh: line 54: 78038 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:18 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Error] [RgbPacketStreamParser] no JPEG detected!
+[Info] [VTRgbPacketProcessor] avg. time: 7.74734ms -> ~129.077Hz
+[Info] [VTRgbPacketProcessor] avg. time: 6.27206ms -> ~159.437Hz
+#### TIMEOUT  Mar 02 23:02:27 timeout=2 error=0  0h54m04s/2h05m44s 430 (43%)
+../test.sh: line 54: 78047 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:18 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 6.52746ms -> ~153.199Hz
+[Info] [VTRgbPacketProcessor] avg. time: 6.04197ms -> ~165.509Hz
+#### TIMEOUT  Mar 02 23:02:47 timeout=3 error=0  0h54m24s/2h06m13s 431 (43%)
+../test.sh: line 54: 78058 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:18 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 5.58563ms -> ~179.031Hz
+[Info] [VTRgbPacketProcessor] avg. time: 6.1864ms -> ~161.645Hz
+#### TIMEOUT  Mar 02 23:03:07 timeout=4 error=0  0h54m44s/2h06m41s 432 (43%)
+../test.sh: line 54: 78067 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:18 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+#### TIMEOUT  Mar 02 23:03:27 timeout=5 error=0  0h55m04s/2h07m10s 433 (43%)
+#### OK       Mar 02 23:03:32 timeout=5 error=0  0h55m09s/2h07m04s 434 (43%)
+#### OK       Mar 02 23:03:39 timeout=5 error=0  0h55m16s/2h07m02s 435 (43%)
+#### OK       Mar 02 23:03:46 timeout=5 error=0  0h55m23s/2h07m01s 436 (43%)
+#### OK       Mar 02 23:03:53 timeout=5 error=0  0h55m30s/2h07m00s 437 (43%)
+#### OK       Mar 02 23:04:00 timeout=5 error=0  0h55m37s/2h06m58s 438 (43%)
+#### OK       Mar 02 23:04:07 timeout=5 error=0  0h55m44s/2h06m57s 439 (43%)
+#### OK       Mar 02 23:04:14 timeout=5 error=0  0h55m51s/2h06m55s 440 (44%)
+#### OK       Mar 02 23:04:21 timeout=5 error=0  0h55m58s/2h06m54s 441 (44%)
+#### OK       Mar 02 23:04:28 timeout=5 error=0  0h56m05s/2h06m53s 442 (44%)
+#### OK       Mar 02 23:04:35 timeout=5 error=0  0h56m12s/2h06m51s 443 (44%)
+#### OK       Mar 02 23:04:42 timeout=5 error=0  0h56m19s/2h06m50s 444 (44%)
+#### OK       Mar 02 23:04:49 timeout=5 error=0  0h56m26s/2h06m48s 445 (44%)
+#### OK       Mar 02 23:04:56 timeout=5 error=0  0h56m33s/2h06m47s 446 (44%)
+#### OK       Mar 02 23:05:02 timeout=5 error=0  0h56m39s/2h06m44s 447 (44%)
+#### OK       Mar 02 23:05:09 timeout=5 error=0  0h56m46s/2h06m42s 448 (44%)
+#### OK       Mar 02 23:05:16 timeout=5 error=0  0h56m53s/2h06m41s 449 (44%)
+#### OK       Mar 02 23:05:23 timeout=5 error=0  0h57m00s/2h06m40s 450 (45%)
+#### OK       Mar 02 23:05:30 timeout=5 error=0  0h57m07s/2h06m38s 451 (45%)
+#### OK       Mar 02 23:05:37 timeout=5 error=0  0h57m14s/2h06m37s 452 (45%)
+#### OK       Mar 02 23:05:44 timeout=5 error=0  0h57m21s/2h06m36s 453 (45%)
+#### OK       Mar 02 23:05:51 timeout=5 error=0  0h57m28s/2h06m34s 454 (45%)
+#### OK       Mar 02 23:05:58 timeout=5 error=0  0h57m35s/2h06m33s 455 (45%)
+#### OK       Mar 02 23:06:05 timeout=5 error=0  0h57m42s/2h06m32s 456 (45%)
+#### OK       Mar 02 23:06:12 timeout=5 error=0  0h57m49s/2h06m30s 457 (45%)
+#### OK       Mar 02 23:06:19 timeout=5 error=0  0h57m56s/2h06m29s 458 (45%)
+#### OK       Mar 02 23:06:26 timeout=5 error=0  0h58m03s/2h06m28s 459 (45%)
+#### OK       Mar 02 23:06:33 timeout=5 error=0  0h58m10s/2h06m26s 460 (46%)
+#### OK       Mar 02 23:06:40 timeout=5 error=0  0h58m17s/2h06m25s 461 (46%)
+#### OK       Mar 02 23:06:47 timeout=5 error=0  0h58m24s/2h06m24s 462 (46%)
+#### OK       Mar 02 23:06:53 timeout=5 error=0  0h58m30s/2h06m20s 463 (46%)
+#### OK       Mar 02 23:07:01 timeout=5 error=0  0h58m38s/2h06m21s 464 (46%)
+#### OK       Mar 02 23:07:07 timeout=5 error=0  0h58m44s/2h06m18s 465 (46%)
+#### OK       Mar 02 23:07:14 timeout=5 error=0  0h58m51s/2h06m17s 466 (46%)
+#### OK       Mar 02 23:07:21 timeout=5 error=0  0h58m58s/2h06m16s 467 (46%)
+#### OK       Mar 02 23:07:28 timeout=5 error=0  0h59m05s/2h06m14s 468 (46%)
+#### OK       Mar 02 23:07:35 timeout=5 error=0  0h59m12s/2h06m13s 469 (46%)
+#### OK       Mar 02 23:07:42 timeout=5 error=0  0h59m19s/2h06m12s 470 (47%)
+#### OK       Mar 02 23:07:49 timeout=5 error=0  0h59m26s/2h06m11s 471 (47%)
+#### OK       Mar 02 23:07:55 timeout=5 error=0  0h59m32s/2h06m07s 472 (47%)
+#### OK       Mar 02 23:08:02 timeout=5 error=0  0h59m39s/2h06m06s 473 (47%)
+#### OK       Mar 02 23:08:09 timeout=5 error=0  0h59m46s/2h06m05s 474 (47%)
+#### OK       Mar 02 23:08:16 timeout=5 error=0  0h59m53s/2h06m04s 475 (47%)
+#### OK       Mar 02 23:08:23 timeout=5 error=0  1h00m00s/2h06m03s 476 (47%)
+#### OK       Mar 02 23:08:30 timeout=5 error=0  1h00m07s/2h06m01s 477 (47%)
+#### OK       Mar 02 23:08:37 timeout=5 error=0  1h00m14s/2h06m00s 478 (47%)
+#### OK       Mar 02 23:08:44 timeout=5 error=0  1h00m21s/2h05m59s 479 (47%)
+#### OK       Mar 02 23:08:51 timeout=5 error=0  1h00m28s/2h05m58s 480 (48%)
+#### OK       Mar 02 23:08:58 timeout=5 error=0  1h00m35s/2h05m57s 481 (48%)
+#### OK       Mar 02 23:09:05 timeout=5 error=0  1h00m42s/2h05m56s 482 (48%)
+#### OK       Mar 02 23:09:11 timeout=5 error=0  1h00m48s/2h05m52s 483 (48%)
+#### OK       Mar 02 23:09:18 timeout=5 error=0  1h00m55s/2h05m51s 484 (48%)
+#### OK       Mar 02 23:09:25 timeout=5 error=0  1h01m02s/2h05m50s 485 (48%)
+#### OK       Mar 02 23:09:32 timeout=5 error=0  1h01m09s/2h05m49s 486 (48%)
+#### OK       Mar 02 23:09:39 timeout=5 error=0  1h01m16s/2h05m48s 487 (48%)
+#### OK       Mar 02 23:09:46 timeout=5 error=0  1h01m23s/2h05m47s 488 (48%)
+#### OK       Mar 02 23:09:53 timeout=5 error=0  1h01m30s/2h05m46s 489 (48%)
+#### OK       Mar 02 23:10:00 timeout=5 error=0  1h01m37s/2h05m44s 490 (49%)
+#### OK       Mar 02 23:10:06 timeout=5 error=0  1h01m43s/2h05m41s 491 (49%)
+#### OK       Mar 02 23:10:13 timeout=5 error=0  1h01m50s/2h05m40s 492 (49%)
+#### OK       Mar 02 23:10:20 timeout=5 error=0  1h01m57s/2h05m39s 493 (49%)
+#### OK       Mar 02 23:10:27 timeout=5 error=0  1h02m04s/2h05m38s 494 (49%)
+#### OK       Mar 02 23:10:34 timeout=5 error=0  1h02m11s/2h05m37s 495 (49%)
+#### OK       Mar 02 23:10:41 timeout=5 error=0  1h02m18s/2h05m36s 496 (49%)
+#### OK       Mar 02 23:10:48 timeout=5 error=0  1h02m25s/2h05m35s 497 (49%)
+#### OK       Mar 02 23:10:55 timeout=5 error=0  1h02m32s/2h05m34s 498 (49%)
+#### OK       Mar 02 23:11:02 timeout=5 error=0  1h02m39s/2h05m33s 499 (49%)
+#### OK       Mar 02 23:11:09 timeout=5 error=0  1h02m46s/2h05m32s 500 (50%)
+#### OK       Mar 02 23:11:16 timeout=5 error=0  1h02m53s/2h05m30s 501 (50%)
+#### OK       Mar 02 23:11:23 timeout=5 error=0  1h03m00s/2h05m29s 502 (50%)
+#### OK       Mar 02 23:11:30 timeout=5 error=0  1h03m07s/2h05m28s 503 (50%)
+#### OK       Mar 02 23:11:37 timeout=5 error=0  1h03m14s/2h05m27s 504 (50%)
+#### OK       Mar 02 23:11:44 timeout=5 error=0  1h03m21s/2h05m26s 505 (50%)
+#### OK       Mar 02 23:11:50 timeout=5 error=0  1h03m27s/2h05m23s 506 (50%)
+#### OK       Mar 02 23:11:58 timeout=5 error=0  1h03m35s/2h05m24s 507 (50%)
+#### OK       Mar 02 23:12:04 timeout=5 error=0  1h03m41s/2h05m21s 508 (50%)
+#### OK       Mar 02 23:12:11 timeout=5 error=0  1h03m48s/2h05m20s 509 (50%)
+#### OK       Mar 02 23:12:18 timeout=5 error=0  1h03m55s/2h05m19s 510 (51%)
+#### OK       Mar 02 23:12:25 timeout=5 error=0  1h04m02s/2h05m18s 511 (51%)
+#### OK       Mar 02 23:12:32 timeout=5 error=0  1h04m09s/2h05m17s 512 (51%)
+#### OK       Mar 02 23:12:39 timeout=5 error=0  1h04m16s/2h05m16s 513 (51%)
+#### OK       Mar 02 23:12:46 timeout=5 error=0  1h04m23s/2h05m15s 514 (51%)
+#### OK       Mar 02 23:12:53 timeout=5 error=0  1h04m30s/2h05m14s 515 (51%)
+#### OK       Mar 02 23:13:00 timeout=5 error=0  1h04m37s/2h05m13s 516 (51%)
+#### OK       Mar 02 23:13:07 timeout=5 error=0  1h04m44s/2h05m12s 517 (51%)
+#### OK       Mar 02 23:13:14 timeout=5 error=0  1h04m51s/2h05m11s 518 (51%)
+#### OK       Mar 02 23:13:21 timeout=5 error=0  1h04m58s/2h05m10s 519 (51%)
+#### OK       Mar 02 23:13:28 timeout=5 error=0  1h05m05s/2h05m09s 520 (52%)
+#### OK       Mar 02 23:13:35 timeout=5 error=0  1h05m12s/2h05m08s 521 (52%)
+#### OK       Mar 02 23:13:42 timeout=5 error=0  1h05m18s/2h05m05s 522 (52%)
+#### OK       Mar 02 23:13:48 timeout=5 error=0  1h05m25s/2h05m04s 523 (52%)
+#### OK       Mar 02 23:13:55 timeout=5 error=0  1h05m32s/2h05m03s 524 (52%)
+#### OK       Mar 02 23:14:02 timeout=5 error=0  1h05m39s/2h05m02s 525 (52%)
+#### OK       Mar 02 23:14:09 timeout=5 error=0  1h05m46s/2h05m01s 526 (52%)
+#### OK       Mar 02 23:14:16 timeout=5 error=0  1h05m53s/2h05m00s 527 (52%)
+#### OK       Mar 02 23:14:23 timeout=5 error=0  1h06m00s/2h05m00s 528 (52%)
+#### OK       Mar 02 23:14:30 timeout=5 error=0  1h06m07s/2h04m59s 529 (52%)
+#### OK       Mar 02 23:14:37 timeout=5 error=0  1h06m14s/2h04m58s 530 (53%)
+#### OK       Mar 02 23:14:44 timeout=5 error=0  1h06m21s/2h04m57s 531 (53%)
+#### OK       Mar 02 23:14:51 timeout=5 error=0  1h06m28s/2h04m56s 532 (53%)
+#### OK       Mar 02 23:14:58 timeout=5 error=0  1h06m35s/2h04m55s 533 (53%)
+#### OK       Mar 02 23:15:05 timeout=5 error=0  1h06m42s/2h04m54s 534 (53%)
+#### OK       Mar 02 23:15:11 timeout=5 error=0  1h06m48s/2h04m51s 535 (53%)
+#### OK       Mar 02 23:15:19 timeout=5 error=0  1h06m56s/2h04m52s 536 (53%)
+#### OK       Mar 02 23:15:25 timeout=5 error=0  1h07m02s/2h04m49s 537 (53%)
+#### OK       Mar 02 23:15:32 timeout=5 error=0  1h07m09s/2h04m48s 538 (53%)
+#### OK       Mar 02 23:15:40 timeout=5 error=0  1h07m17s/2h04m49s 539 (53%)
+#### OK       Mar 02 23:15:47 timeout=5 error=0  1h07m23s/2h04m47s 540 (54%)
+#### OK       Mar 02 23:15:54 timeout=5 error=0  1h07m31s/2h04m47s 541 (54%)
+#### OK       Mar 02 23:16:01 timeout=5 error=0  1h07m38s/2h04m47s 542 (54%)
+#### OK       Mar 02 23:16:08 timeout=5 error=0  1h07m45s/2h04m46s 543 (54%)
+#### OK       Mar 02 23:16:15 timeout=5 error=0  1h07m52s/2h04m45s 544 (54%)
+#### OK       Mar 02 23:16:22 timeout=5 error=0  1h07m59s/2h04m44s 545 (54%)
+#### OK       Mar 02 23:16:29 timeout=5 error=0  1h08m06s/2h04m43s 546 (54%)
+#### OK       Mar 02 23:16:36 timeout=5 error=0  1h08m13s/2h04m42s 547 (54%)
+#### OK       Mar 02 23:16:43 timeout=5 error=0  1h08m20s/2h04m41s 548 (54%)
+#### OK       Mar 02 23:16:50 timeout=5 error=0  1h08m27s/2h04m40s 549 (54%)
+#### OK       Mar 02 23:16:57 timeout=5 error=0  1h08m34s/2h04m40s 550 (55%)
+#### OK       Mar 02 23:17:04 timeout=5 error=0  1h08m41s/2h04m39s 551 (55%)
+#### OK       Mar 02 23:17:11 timeout=5 error=0  1h08m48s/2h04m38s 552 (55%)
+#### OK       Mar 02 23:17:18 timeout=5 error=0  1h08m55s/2h04m37s 553 (55%)
+#### OK       Mar 02 23:17:25 timeout=5 error=0  1h09m02s/2h04m36s 554 (55%)
+#### OK       Mar 02 23:17:32 timeout=5 error=0  1h09m09s/2h04m35s 555 (55%)
+#### OK       Mar 02 23:17:39 timeout=5 error=0  1h09m16s/2h04m34s 556 (55%)
+#### OK       Mar 02 23:17:46 timeout=5 error=0  1h09m23s/2h04m33s 557 (55%)
+#### OK       Mar 02 23:17:53 timeout=5 error=0  1h09m30s/2h04m33s 558 (55%)
+#### OK       Mar 02 23:17:59 timeout=5 error=0  1h09m36s/2h04m30s 559 (55%)
+#### OK       Mar 02 23:18:07 timeout=5 error=0  1h09m44s/2h04m31s 560 (56%)
+#### OK       Mar 02 23:18:13 timeout=5 error=0  1h09m50s/2h04m28s 561 (56%)
+#### OK       Mar 02 23:18:20 timeout=5 error=0  1h09m57s/2h04m27s 562 (56%)
+#### OK       Mar 02 23:18:27 timeout=5 error=0  1h10m04s/2h04m27s 563 (56%)
+#### OK       Mar 02 23:18:34 timeout=5 error=0  1h10m11s/2h04m26s 564 (56%)
+#### OK       Mar 02 23:18:41 timeout=5 error=0  1h10m18s/2h04m25s 565 (56%)
+#### OK       Mar 02 23:18:48 timeout=5 error=0  1h10m25s/2h04m24s 566 (56%)
+#### OK       Mar 02 23:18:55 timeout=5 error=0  1h10m32s/2h04m23s 567 (56%)
+#### OK       Mar 02 23:19:01 timeout=5 error=0  1h10m38s/2h04m21s 568 (56%)
+#### OK       Mar 02 23:19:09 timeout=5 error=0  1h10m46s/2h04m22s 569 (56%)
+#### OK       Mar 02 23:19:15 timeout=5 error=0  1h10m52s/2h04m19s 570 (57%)
+#### OK       Mar 02 23:19:22 timeout=5 error=0  1h10m59s/2h04m18s 571 (57%)
+#### OK       Mar 02 23:19:29 timeout=5 error=0  1h11m06s/2h04m18s 572 (57%)
+#### OK       Mar 02 23:19:36 timeout=5 error=0  1h11m13s/2h04m17s 573 (57%)
+#### OK       Mar 02 23:19:43 timeout=5 error=0  1h11m20s/2h04m16s 574 (57%)
+#### OK       Mar 02 23:19:50 timeout=5 error=0  1h11m27s/2h04m15s 575 (57%)
+#### OK       Mar 02 23:19:57 timeout=5 error=0  1h11m34s/2h04m14s 576 (57%)
+#### OK       Mar 02 23:20:04 timeout=5 error=0  1h11m41s/2h04m14s 577 (57%)
+#### OK       Mar 02 23:20:11 timeout=5 error=0  1h11m48s/2h04m13s 578 (57%)
+#### OK       Mar 02 23:20:18 timeout=5 error=0  1h11m55s/2h04m12s 579 (57%)
+#### OK       Mar 02 23:20:25 timeout=5 error=0  1h12m02s/2h04m11s 580 (58%)
+#### OK       Mar 02 23:20:32 timeout=5 error=0  1h12m09s/2h04m10s 581 (58%)
+#### OK       Mar 02 23:20:39 timeout=5 error=0  1h12m16s/2h04m10s 582 (58%)
+#### OK       Mar 02 23:20:46 timeout=5 error=0  1h12m23s/2h04m09s 583 (58%)
+#### OK       Mar 02 23:20:53 timeout=5 error=0  1h12m30s/2h04m08s 584 (58%)
+#### OK       Mar 02 23:21:00 timeout=5 error=0  1h12m37s/2h04m07s 585 (58%)
+#### OK       Mar 02 23:21:07 timeout=5 error=0  1h12m44s/2h04m07s 586 (58%)
+#### OK       Mar 02 23:21:14 timeout=5 error=0  1h12m51s/2h04m06s 587 (58%)
+../test.sh: line 54: 79347 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 1024
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9729
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9731
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 5.36851ms -> ~186.272Hz
+[Info] [VTRgbPacketProcessor] avg. time: 5.42299ms -> ~184.4Hz
+#### TIMEOUT  Mar 02 23:21:34 timeout=6 error=0  1h13m11s/2h04m27s 588 (58%)
+../test.sh: line 54: 79356 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 5.69954ms -> ~175.453Hz
+[Info] [VTRgbPacketProcessor] avg. time: 5.12564ms -> ~195.097Hz
+#### TIMEOUT  Mar 02 23:21:54 timeout=7 error=0  1h13m31s/2h04m48s 589 (58%)
+../test.sh: line 54: 79365 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Error] [RgbPacketStreamParser] packetsize o[Info] [Freenect2DeviceImpl] submitting depth transfers...
+r sequence doesn't match!
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 7.88084ms -> ~126.89Hz
+[Info] [VTRgbPacketProcessor] avg. time: 9.98097ms -> ~100.191Hz
+#### TIMEOUT  Mar 02 23:22:14 timeout=8 error=0  1h13m51s/2h05m10s 590 (59%)
+../test.sh: line 54: 79374 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Error] [RgbPacketStreamParser] packetsize or sequence doesn't [Info] [Freenect2DeviceImpl] submitting depth transfers...
+match!
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Error] [RgbPacketStreamParser] no JPEG detected!
+[Info] [VTRgbPacketProcessor] avg. time: 8.10599ms -> ~123.366Hz
+[Info] [VTRgbPacketProcessor] avg. time: 5.36534ms -> ~186.381Hz
+#### TIMEOUT  Mar 02 23:22:34 timeout=9 error=0  1h14m11s/2h05m31s 591 (59%)
+../test.sh: line 54: 79385 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 5.44486ms -> ~183.659Hz
+[Info] [VTRgbPacketProcessor] avg. time: 5.42617ms -> ~184.292Hz
+#### TIMEOUT  Mar 02 23:22:54 timeout=10 error=0  1h14m31s/2h05m52s 592 (59%)
+../test.sh: line 54: 79421 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Error] [RgbPacketStreamParser] no JPEG detected!
+[Error] [RgbPacketStreamParser] no JPEG detected!
+[Info] [VTRgbPacketProcessor] avg. time: 5.74557ms -> ~174.047Hz
+[Info] [VTRgbPacketProcessor] avg. time: 5.72835ms -> ~174.57Hz
+#### TIMEOUT  Mar 02 23:23:14 timeout=11 error=0  1h14m51s/2h06m13s 593 (59%)
+../test.sh: line 54: 79441 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Error] [RgbPacketStreamParser] packetsize or sequence doesn't match!
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 8.91888ms -> ~112.122Hz
+[Info] [VTRgbPacketProcessor] avg. time: 8.56383ms -> ~116.77Hz
+#### TIMEOUT  Mar 02 23:23:34 timeout=12 error=0  1h15m11s/2h06m34s 594 (59%)
+../test.sh: line 54: 79450 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9763
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9771
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 8.04964ms -> ~124.229Hz
+[Info] [VTRgbPacketProcessor] avg. time: 8.02679ms -> ~124.583Hz
+#### TIMEOUT  Mar 02 23:23:54 timeout=13 error=0  1h15m31s/2h06m55s 595 (59%)
+../test.sh: line 54: 79462 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9771
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9771
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 9.08425ms -> ~110.081Hz
+[Info] [VTRgbPacketProcessor] avg. time: 8.52058ms -> ~117.363Hz
+#### TIMEOUT  Mar 02 23:24:14 timeout=14 error=0  1h15m51s/2h07m15s 596 (59%)
+../test.sh: line 54: 79473 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9771
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9771
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 8.26677ms -> ~120.966Hz
+[Info] [VTRgbPacketProcessor] avg. time: 9.22303ms -> ~108.424Hz
+#### TIMEOUT  Mar 02 23:24:34 timeout=15 error=0  1h16m11s/2h07m36s 597 (59%)
+../test.sh: line 54: 79482 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9775
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9775
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 9.34118ms -> ~107.053Hz
+[Info] [VTRgbPacketProcessor] avg. time: 8.41191ms -> ~118.879Hz
+#### TIMEOUT  Mar 02 23:24:54 timeout=16 error=0  1h16m31s/2h07m57s 598 (59%)
+../test.sh: line 54: 79491 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9775
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9775
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 6.62598ms -> ~150.921Hz
+[Info] [VTRgbPacketProcessor] avg. time: 6.92383ms -> ~144.429Hz
+#### TIMEOUT  Mar 02 23:25:14 timeout=17 error=0  1h16m51s/2h08m17s 599 (59%)
+../test.sh: line 54: 79501 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9791
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9791
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 9.08516ms -> ~110.07Hz
+[Info] [VTRgbPacketProcessor] avg. time: 8.66851ms -> ~115.36Hz
+#### TIMEOUT  Mar 02 23:25:34 timeout=18 error=0  1h17m11s/2h08m38s 600 (60%)
+../test.sh: line 54: 79510 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9791
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9791
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Error] [RgbPacketStreamParser] no JPEG detected!
+[Error] [RgbPacketStreamParser] no JPEG detected!
+[Info] [VTRgbPacketProcessor] avg. time: 6.04072ms -> ~165.543Hz
+[Info] [VTRgbPacketProcessor] avg. time: 5.96446ms -> ~167.66Hz
+#### TIMEOUT  Mar 02 23:25:54 timeout=19 error=0  1h17m31s/2h08m58s 601 (60%)
+../test.sh: line 54: 79529 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9791
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9791
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Error] [RgbPacketStreamParser] no JPEG detected!
+[Error] [RgbPacketStreamParser] no JPEG detected!
+[Error] [RgbPacketStreamParser] no JPEG detected!
+[Error] [RgbPacketStreamParser] no JPEG detected!
+[Error] [RgbPacketStreamParser] no JPEG detected!
+[Error] [RgbPacketStreamParser] no JPEG detected!
+[Info] [VTRgbPacketProcessor] avg. time: 5.88564ms -> ~169.905Hz
+[Info] [VTRgbPacketProcessor] avg. time: 6.13033ms -> ~163.123Hz
+#### TIMEOUT  Mar 02 23:26:14 timeout=20 error=0  1h17m51s/2h09m19s 602 (60%)
+../test.sh: line 54: 79538 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9791
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9791
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 7.15152ms -> ~139.83Hz
+[Info] [VTRgbPacketProcessor] avg. time: 6.35844ms -> ~157.271Hz
+#### TIMEOUT  Mar 02 23:26:34 timeout=21 error=0  1h18m11s/2h09m39s 603 (60%)
+../test.sh: line 54: 79547 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9791
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9791
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+[Info] [VTRgbPacketProcessor] avg. time: 8.00339ms -> ~124.947Hz
+[Info] [VTRgbPacketProcessor] avg. time: 9.40002ms -> ~106.383Hz
+#### TIMEOUT  Mar 02 23:26:55 timeout=22 error=0  1h18m32s/2h10m01s 604 (60%)
+../test.sh: line 54: 79556 Terminated: 15          ./bin/Protonect cl -frames 1 > $out 2>&1
+Version: 0.2.0
+Environment variables: LOGFILE=<protonect.log>
+Usage: ./bin/Protonect [-gpu=<id>] [gl | cl | cuda | cpu] [<device serial>]
+        [-noviewer] [-norgb | -nodepth] [-help] [-version]
+        [-frames <number of frames to process>]
+To pause and unpause: pkill -USR1 Protonect
+[Info] [OpenCLDepthPacketProcessorImpl]  devices:
+[Info] [OpenCLDepthPacketProcessorImpl]   0: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz  (CPU)[Intel ]
+[Info] [OpenCLDepthPacketProcessorImpl]   1: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] selected device: GeForce GTX 675MX  (GPU)[NVIDIA ]
+[Info] [OpenCLDepthPacketProcessorImpl] building OpenCL program...
+[Info] [OpenCLDepthPacketProcessorImpl] OpenCL program built successfully
+[Info] [Freenect2Impl] enumerating devices...
+[Info] [Freenect2Impl] 13 usb devices connected
+[Info] [Freenect2Impl] found valid Kinect v2 @20:24 with serial 005697142447
+[Info] [Freenect2Impl] found 1 devices
+[Info] [Freenect2DeviceImpl] opening...
+[Info] [Freenect2DeviceImpl] opened
+[Info] [Freenect2DeviceImpl] starting...
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9791
+[Debug] [Freenect2DeviceImpl] status 0x090000: 9791
+[Info] [Freenect2DeviceImpl] submitting rgb transfers...
+[Info] [Freenect2DeviceImpl] submitting depth transfers...
+[Info] [Freenect2DeviceImpl] started
+device serial: 005697142447
+device firmware: 4.0.3912.0
+#### TIMEOUT  Mar 02 23:27:15 timeout=23 error=0  1h18m52s/2h10m21s 605 (60%)
+#### OK       Mar 02 23:27:20 timeout=23 error=0  1h18m57s/2h10m16s 606 (60%)
+#### OK       Mar 02 23:27:27 timeout=23 error=0  1h19m04s/2h10m15s 607 (60%)
+#### OK       Mar 02 23:27:34 timeout=23 error=0  1h19m11s/2h10m14s 608 (60%)
+#### OK       Mar 02 23:27:41 timeout=23 error=0  1h19m18s/2h10m12s 609 (60%)
+#### OK       Mar 02 23:27:48 timeout=23 error=0  1h19m25s/2h10m11s 610 (61%)
+#### OK       Mar 02 23:27:55 timeout=23 error=0  1h19m32s/2h10m10s 611 (61%)
+#### OK       Mar 02 23:28:02 timeout=23 error=0  1h19m39s/2h10m08s 612 (61%)
+#### OK       Mar 02 23:28:09 timeout=23 error=0  1h19m46s/2h10m07s 613 (61%)
+#### OK       Mar 02 23:28:16 timeout=23 error=0  1h19m53s/2h10m06s 614 (61%)
+#### OK       Mar 02 23:28:23 timeout=23 error=0  1h20m00s/2h10m04s 615 (61%)
+#### OK       Mar 02 23:28:30 timeout=23 error=0  1h20m07s/2h10m03s 616 (61%)
+#### OK       Mar 02 23:28:37 timeout=23 error=0  1h20m14s/2h10m02s 617 (61%)
+#### OK       Mar 02 23:28:44 timeout=23 error=0  1h20m21s/2h10m00s 618 (61%)
+#### OK       Mar 02 23:28:50 timeout=23 error=0  1h20m27s/2h09m58s 619 (61%)
+#### OK       Mar 02 23:28:57 timeout=23 error=0  1h20m34s/2h09m56s 620 (62%)
+#### OK       Mar 02 23:29:04 timeout=23 error=0  1h20m41s/2h09m55s 621 (62%)
+#### OK       Mar 02 23:29:11 timeout=23 error=0  1h20m48s/2h09m54s 622 (62%)
+#### OK       Mar 02 23:29:18 timeout=23 error=0  1h20m55s/2h09m52s 623 (62%)
+#### OK       Mar 02 23:29:25 timeout=23 error=0  1h21m02s/2h09m51s 624 (62%)
+#### OK       Mar 02 23:29:32 timeout=23 error=0  1h21m09s/2h09m50s 625 (62%)
+#### OK       Mar 02 23:29:39 timeout=23 error=0  1h21m16s/2h09m49s 626 (62%)
+#### OK       Mar 02 23:29:46 timeout=23 error=0  1h21m23s/2h09m47s 627 (62%)
+#### OK       Mar 02 23:29:53 timeout=23 error=0  1h21m30s/2h09m46s 628 (62%)
+#### OK       Mar 02 23:30:00 timeout=23 error=0  1h21m37s/2h09m45s 629 (62%)
+#### OK       Mar 02 23:30:06 timeout=23 error=0  1h21m43s/2h09m42s 630 (63%)
+#### OK       Mar 02 23:30:14 timeout=23 error=0  1h21m51s/2h09m42s 631 (63%)
+#### OK       Mar 02 23:30:20 timeout=23 error=0  1h21m57s/2h09m40s 632 (63%)
+#### OK       Mar 02 23:30:27 timeout=23 error=0  1h22m04s/2h09m38s 633 (63%)
+#### OK       Mar 02 23:30:34 timeout=23 error=0  1h22m11s/2h09m37s 634 (63%)
+#### OK       Mar 02 23:30:41 timeout=23 error=0  1h22m18s/2h09m36s 635 (63%)
+#### OK       Mar 02 23:30:48 timeout=23 error=0  1h22m25s/2h09m35s 636 (63%)
+#### OK       Mar 02 23:30:55 timeout=23 error=0  1h22m32s/2h09m33s 637 (63%)
+#### OK       Mar 02 23:31:02 timeout=23 error=0  1h22m39s/2h09m32s 638 (63%)
+#### OK       Mar 02 23:31:09 timeout=23 error=0  1h22m46s/2h09m31s 639 (63%)
+#### OK       Mar 02 23:31:16 timeout=23 error=0  1h22m53s/2h09m30s 640 (64%)
+#### OK       Mar 02 23:31:23 timeout=23 error=0  1h23m00s/2h09m29s 641 (64%)
+#### OK       Mar 02 23:31:30 timeout=23 error=0  1h23m07s/2h09m27s 642 (64%)
+#### OK       Mar 02 23:31:37 timeout=23 error=0  1h23m14s/2h09m26s 643 (64%)
+#### OK       Mar 02 23:31:44 timeout=23 error=0  1h23m21s/2h09m25s 644 (64%)
+#### OK       Mar 02 23:31:51 timeout=23 error=0  1h23m28s/2h09m24s 645 (64%)
+#### OK       Mar 02 23:31:58 timeout=23 error=0  1h23m35s/2h09m23s 646 (64%)
+#### OK       Mar 02 23:32:04 timeout=23 error=0  1h23m41s/2h09m20s 647 (64%)
+#### OK       Mar 02 23:32:12 timeout=23 error=0  1h23m49s/2h09m20s 648 (64%)
+#### OK       Mar 02 23:32:18 timeout=23 error=0  1h23m55s/2h09m18s 649 (64%)
+#### OK       Mar 02 23:32:25 timeout=23 error=0  1h24m02s/2h09m16s 650 (65%)
+#### OK       Mar 02 23:32:32 timeout=23 error=0  1h24m09s/2h09m15s 651 (65%)
+#### OK       Mar 02 23:32:39 timeout=23 error=0  1h24m16s/2h09m14s 652 (65%)
+#### OK       Mar 02 23:32:46 timeout=23 error=0  1h24m23s/2h09m13s 653 (65%)
+#### OK       Mar 02 23:32:53 timeout=23 error=0  1h24m30s/2h09m12s 654 (65%)
+#### OK       Mar 02 23:33:00 timeout=23 error=0  1h24m37s/2h09m11s 655 (65%)
+#### OK       Mar 02 23:33:07 timeout=23 error=0  1h24m44s/2h09m10s 656 (65%)
+#### OK       Mar 02 23:33:14 timeout=23 error=0  1h24m51s/2h09m08s 657 (65%)
+#### OK       Mar 02 23:33:21 timeout=23 error=0  1h24m58s/2h09m07s 658 (65%)
+#### OK       Mar 02 23:33:28 timeout=23 error=0  1h25m05s/2h09m06s 659 (65%)
+#### OK       Mar 02 23:33:35 timeout=23 error=0  1h25m12s/2h09m05s 660 (66%)
+#### OK       Mar 02 23:33:41 timeout=23 error=0  1h25m18s/2h09m02s 661 (66%)
+#### OK       Mar 02 23:33:48 timeout=23 error=0  1h25m25s/2h09m01s 662 (66%)
+#### OK       Mar 02 23:33:56 timeout=23 error=0  1h25m33s/2h09m02s 663 (66%)
+#### OK       Mar 02 23:34:03 timeout=23 error=0  1h25m40s/2h09m00s 664 (66%)
+#### OK       Mar 02 23:34:10 timeout=23 error=0  1h25m47s/2h08m59s 665 (66%)
+#### OK       Mar 02 23:34:17 timeout=23 error=0  1h25m54s/2h08m58s 666 (66%)
+#### OK       Mar 02 23:34:23 timeout=23 error=0  1h26m00s/2h08m56s 667 (66%)
+#### OK       Mar 02 23:34:30 timeout=23 error=0  1h26m07s/2h08m55s 668 (66%)
+#### OK       Mar 02 23:34:37 timeout=23 error=0  1h26m14s/2h08m53s 669 (66%)
+#### OK       Mar 02 23:34:44 timeout=23 error=0  1h26m21s/2h08m52s 670 (67%)
+#### OK       Mar 02 23:34:51 timeout=23 error=0  1h26m28s/2h08m51s 671 (67%)
+#### OK       Mar 02 23:34:58 timeout=23 error=0  1h26m35s/2h08m50s 672 (67%)
+#### OK       Mar 02 23:35:05 timeout=23 error=0  1h26m42s/2h08m49s 673 (67%)
+#### OK       Mar 02 23:35:12 timeout=23 error=0  1h26m49s/2h08m48s 674 (67%)
+#### OK       Mar 02 23:35:19 timeout=23 error=0  1h26m56s/2h08m47s 675 (67%)
+#### OK       Mar 02 23:35:26 timeout=23 error=0  1h27m03s/2h08m46s 676 (67%)
+#### OK       Mar 02 23:35:33 timeout=23 error=0  1h27m10s/2h08m45s 677 (67%)
+#### OK       Mar 02 23:35:40 timeout=23 error=0  1h27m17s/2h08m44s 678 (67%)
+#### OK       Mar 02 23:35:47 timeout=23 error=0  1h27m24s/2h08m43s 679 (67%)
+#### OK       Mar 02 23:35:54 timeout=23 error=0  1h27m31s/2h08m42s 680 (68%)
+#### OK       Mar 02 23:36:01 timeout=23 error=0  1h27m38s/2h08m40s 681 (68%)
+#### OK       Mar 02 23:36:08 timeout=23 error=0  1h27m45s/2h08m39s 682 (68%)
+#### OK       Mar 02 23:36:14 timeout=23 error=0  1h27m51s/2h08m37s 683 (68%)
+#### OK       Mar 02 23:36:21 timeout=23 error=0  1h27m58s/2h08m36s 684 (68%)
+#### OK       Mar 02 23:36:28 timeout=23 error=0  1h28m05s/2h08m35s 685 (68%)
+#### OK       Mar 02 23:36:35 timeout=23 error=0  1h28m12s/2h08m34s 686 (68%)
+#### OK       Mar 02 23:36:42 timeout=23 error=0  1h28m19s/2h08m33s 687 (68%)
+#### OK       Mar 02 23:36:49 timeout=23 error=0  1h28m26s/2h08m32s 688 (68%)
+#### OK       Mar 02 23:36:56 timeout=23 error=0  1h28m33s/2h08m31s 689 (68%)
+#### OK       Mar 02 23:37:03 timeout=23 error=0  1h28m40s/2h08m30s 690 (69%)
+#### OK       Mar 02 23:37:10 timeout=23 error=0  1h28m47s/2h08m29s 691 (69%)
+#### OK       Mar 02 23:37:16 timeout=23 error=0  1h28m53s/2h08m26s 692 (69%)
+#### OK       Mar 02 23:37:23 timeout=23 error=0  1h29m00s/2h08m25s 693 (69%)
+#### OK       Mar 02 23:37:30 timeout=23 error=0  1h29m07s/2h08m24s 694 (69%)
+#### OK       Mar 02 23:37:37 timeout=23 error=0  1h29m14s/2h08m23s 695 (69%)
+#### OK       Mar 02 23:37:44 timeout=23 error=0  1h29m21s/2h08m22s 696 (69%)
+#### OK       Mar 02 23:37:51 timeout=23 error=0  1h29m28s/2h08m21s 697 (69%)
+#### OK       Mar 02 23:37:58 timeout=23 error=0  1h29m35s/2h08m20s 698 (69%)
+#### OK       Mar 02 23:38:05 timeout=23 error=0  1h29m42s/2h08m19s 699 (69%)
+#### OK       Mar 02 23:38:12 timeout=23 error=0  1h29m49s/2h08m18s 700 (70%)
+#### OK       Mar 02 23:38:19 timeout=23 error=0  1h29m56s/2h08m17s 701 (70%)
+#### OK       Mar 02 23:38:26 timeout=23 error=0  1h30m03s/2h08m16s 702 (70%)
+#### OK       Mar 02 23:38:33 timeout=23 error=0  1h30m10s/2h08m15s 703 (70%)
+#### OK       Mar 02 23:38:40 timeout=23 error=0  1h30m17s/2h08m14s 704 (70%)
+#### OK       Mar 02 23:38:47 timeout=23 error=0  1h30m24s/2h08m13s 705 (70%)
+#### OK       Mar 02 23:38:54 timeout=23 error=0  1h30m31s/2h08m12s 706 (70%)
+#### OK       Mar 02 23:39:01 timeout=23 error=0  1h30m38s/2h08m11s 707 (70%)
+#### OK       Mar 02 23:39:08 timeout=23 error=0  1h30m45s/2h08m10s 708 (70%)
+#### OK       Mar 02 23:39:14 timeout=23 error=0  1h30m51s/2h08m08s 709 (70%)
+#### OK       Mar 02 23:39:21 timeout=23 error=0  1h30m58s/2h08m07s 710 (71%)
+#### OK       Mar 02 23:39:28 timeout=23 error=0  1h31m05s/2h08m06s 711 (71%)
+#### OK       Mar 02 23:39:35 timeout=23 error=0  1h31m12s/2h08m05s 712 (71%)
+#### OK       Mar 02 23:39:42 timeout=23 error=0  1h31m19s/2h08m04s 713 (71%)
+#### OK       Mar 02 23:39:49 timeout=23 error=0  1h31m26s/2h08m03s 714 (71%)
+#### OK       Mar 02 23:39:56 timeout=23 error=0  1h31m33s/2h08m02s 715 (71%)
+#### OK       Mar 02 23:40:03 timeout=23 error=0  1h31m40s/2h08m01s 716 (71%)
+#### OK       Mar 02 23:40:10 timeout=23 error=0  1h31m47s/2h08m00s 717 (71%)
+#### OK       Mar 02 23:40:17 timeout=23 error=0  1h31m54s/2h07m59s 718 (71%)
+#### OK       Mar 02 23:40:24 timeout=23 error=0  1h32m01s/2h07m58s 719 (71%)
+#### OK       Mar 02 23:40:31 timeout=23 error=0  1h32m08s/2h07m57s 720 (72%)
+#### OK       Mar 02 23:40:38 timeout=23 error=0  1h32m15s/2h07m56s 721 (72%)
+#### OK       Mar 02 23:40:45 timeout=23 error=0  1h32m22s/2h07m55s 722 (72%)
+#### OK       Mar 02 23:40:52 timeout=23 error=0  1h32m29s/2h07m54s 723 (72%)
+#### OK       Mar 02 23:40:58 timeout=23 error=0  1h32m35s/2h07m52s 724 (72%)
+#### OK       Mar 02 23:41:05 timeout=23 error=0  1h32m42s/2h07m51s 725 (72%)
+#### OK       Mar 02 23:41:12 timeout=23 error=0  1h32m49s/2h07m50s 726 (72%)
+#### OK       Mar 02 23:41:19 timeout=23 error=0  1h32m56s/2h07m49s 727 (72%)
+#### OK       Mar 02 23:41:26 timeout=23 error=0  1h33m03s/2h07m48s 728 (72%)
+#### OK       Mar 02 23:41:34 timeout=23 error=0  1h33m11s/2h07m49s 729 (72%)
+#### OK       Mar 02 23:41:41 timeout=23 error=0  1h33m18s/2h07m48s 730 (73%)
+#### OK       Mar 02 23:41:48 timeout=23 error=0  1h33m25s/2h07m47s 731 (73%)
+#### OK       Mar 02 23:41:54 timeout=23 error=0  1h33m31s/2h07m45s 732 (73%)
+#### OK       Mar 02 23:42:01 timeout=23 error=0  1h33m38s/2h07m44s 733 (73%)
+#### OK       Mar 02 23:42:08 timeout=23 error=0  1h33m45s/2h07m43s 734 (73%)
+#### OK       Mar 02 23:42:15 timeout=23 error=0  1h33m52s/2h07m42s 735 (73%)
+#### OK       Mar 02 23:42:22 timeout=23 error=0  1h33m59s/2h07m41s 736 (73%)
+#### OK       Mar 02 23:42:29 timeout=23 error=0  1h34m06s/2h07m40s 737 (73%)
+#### OK       Mar 02 23:42:36 timeout=23 error=0  1h34m13s/2h07m39s 738 (73%)
+#### OK       Mar 02 23:42:43 timeout=23 error=0  1h34m20s/2h07m38s 739 (73%)
+#### OK       Mar 02 23:42:50 timeout=23 error=0  1h34m27s/2h07m38s 740 (74%)
+#### OK       Mar 02 23:42:57 timeout=23 error=0  1h34m34s/2h07m37s 741 (74%)
+#### OK       Mar 02 23:43:04 timeout=23 error=0  1h34m41s/2h07m36s 742 (74%)
+#### OK       Mar 02 23:43:11 timeout=23 error=0  1h34m48s/2h07m35s 743 (74%)
+#### OK       Mar 02 23:43:18 timeout=23 error=0  1h34m55s/2h07m34s 744 (74%)
+#### OK       Mar 02 23:43:25 timeout=23 error=0  1h35m02s/2h07m33s 745 (74%)
+#### OK       Mar 02 23:43:32 timeout=23 error=0  1h35m09s/2h07m32s 746 (74%)
+#### OK       Mar 02 23:43:38 timeout=23 error=0  1h35m15s/2h07m30s 747 (74%)
+#### OK       Mar 02 23:43:45 timeout=23 error=0  1h35m22s/2h07m29s 748 (74%)
+#### OK       Mar 02 23:43:53 timeout=23 error=0  1h35m30s/2h07m30s 749 (74%)
+#### OK       Mar 02 23:43:59 timeout=23 error=0  1h35m36s/2h07m28s 750 (75%)
+#### OK       Mar 02 23:44:06 timeout=23 error=0  1h35m43s/2h07m27s 751 (75%)
+#### OK       Mar 02 23:44:14 timeout=23 error=0  1h35m51s/2h07m27s 752 (75%)
+#### OK       Mar 02 23:44:21 timeout=23 error=0  1h35m58s/2h07m26s 753 (75%)
+#### OK       Mar 02 23:44:27 timeout=23 error=0  1h36m04s/2h07m24s 754 (75%)
+#### OK       Mar 02 23:44:34 timeout=23 error=0  1h36m11s/2h07m23s 755 (75%)
+#### OK       Mar 02 23:44:41 timeout=23 error=0  1h36m18s/2h07m22s 756 (75%)
+#### OK       Mar 02 23:44:48 timeout=23 error=0  1h36m25s/2h07m22s 757 (75%)
+#### OK       Mar 02 23:44:55 timeout=23 error=0  1h36m32s/2h07m21s 758 (75%)
+#### OK       Mar 02 23:45:02 timeout=23 error=0  1h36m39s/2h07m20s 759 (75%)
+#### OK       Mar 02 23:45:09 timeout=23 error=0  1h36m46s/2h07m19s 760 (76%)
+#### OK       Mar 02 23:45:16 timeout=23 error=0  1h36m53s/2h07m18s 761 (76%)
+#### OK       Mar 02 23:45:23 timeout=23 error=0  1h37m00s/2h07m17s 762 (76%)
+#### OK       Mar 02 23:45:30 timeout=23 error=0  1h37m07s/2h07m16s 763 (76%)
+#### OK       Mar 02 23:45:37 timeout=23 error=0  1h37m14s/2h07m16s 764 (76%)
+#### OK       Mar 02 23:45:44 timeout=23 error=0  1h37m21s/2h07m15s 765 (76%)
+#### OK       Mar 02 23:45:51 timeout=23 error=0  1h37m28s/2h07m14s 766 (76%)
+#### OK       Mar 02 23:45:57 timeout=23 error=0  1h37m34s/2h07m12s 767 (76%)
+#### OK       Mar 02 23:46:04 timeout=23 error=0  1h37m41s/2h07m11s 768 (76%)
+#### OK       Mar 02 23:46:11 timeout=23 error=0  1h37m48s/2h07m10s 769 (76%)
+#### OK       Mar 02 23:46:19 timeout=23 error=0  1h37m56s/2h07m11s 770 (77%)
+#### OK       Mar 02 23:46:26 timeout=23 error=0  1h38m03s/2h07m10s 771 (77%)
+#### OK       Mar 02 23:46:32 timeout=23 error=0  1h38m09s/2h07m08s 772 (77%)
+#### OK       Mar 02 23:46:39 timeout=23 error=0  1h38m16s/2h07m07s 773 (77%)
+#### OK       Mar 02 23:46:46 timeout=23 error=0  1h38m23s/2h07m06s 774 (77%)
+#### OK       Mar 02 23:46:53 timeout=23 error=0  1h38m30s/2h07m05s 775 (77%)
+#### OK       Mar 02 23:47:00 timeout=23 error=0  1h38m37s/2h07m05s 776 (77%)
+#### OK       Mar 02 23:47:07 timeout=23 error=0  1h38m44s/2h07m04s 777 (77%)
+#### OK       Mar 02 23:47:13 timeout=23 error=0  1h38m50s/2h07m02s 778 (77%)
+#### OK       Mar 02 23:47:20 timeout=23 error=0  1h38m57s/2h07m01s 779 (77%)
+#### OK       Mar 02 23:47:27 timeout=23 error=0  1h39m04s/2h07m00s 780 (78%)
+#### OK       Mar 02 23:47:34 timeout=23 error=0  1h39m11s/2h06m59s 781 (78%)
+#### OK       Mar 02 23:47:41 timeout=23 error=0  1h39m18s/2h06m58s 782 (78%)
+#### OK       Mar 02 23:47:47 timeout=23 error=0  1h39m24s/2h06m56s 783 (78%)
+#### OK       Mar 02 23:47:54 timeout=23 error=0  1h39m31s/2h06m56s 784 (78%)
+#### OK       Mar 02 23:48:02 timeout=23 error=0  1h39m39s/2h06m56s 785 (78%)
+#### OK       Mar 02 23:48:08 timeout=23 error=0  1h39m45s/2h06m54s 786 (78%)
+#### OK       Mar 02 23:48:15 timeout=23 error=0  1h39m52s/2h06m53s 787 (78%)
+#### OK       Mar 02 23:48:22 timeout=23 error=0  1h39m59s/2h06m52s 788 (78%)
+#### OK       Mar 02 23:48:29 timeout=23 error=0  1h40m06s/2h06m52s 789 (78%)
+#### OK       Mar 02 23:48:36 timeout=23 error=0  1h40m13s/2h06m51s 790 (79%)
+#### OK       Mar 02 23:48:43 timeout=23 error=0  1h40m20s/2h06m50s 791 (79%)
+#### OK       Mar 02 23:48:50 timeout=23 error=0  1h40m27s/2h06m49s 792 (79%)
+#### OK       Mar 02 23:48:56 timeout=23 error=0  1h40m33s/2h06m47s 793 (79%)
+#### OK       Mar 02 23:49:03 timeout=23 error=0  1h40m40s/2h06m47s 794 (79%)
+#### OK       Mar 02 23:49:10 timeout=23 error=0  1h40m47s/2h06m46s 795 (79%)
+#### OK       Mar 02 23:49:17 timeout=23 error=0  1h40m54s/2h06m45s 796 (79%)
+#### OK       Mar 02 23:49:24 timeout=23 error=0  1h41m01s/2h06m44s 797 (79%)
+#### OK       Mar 02 23:49:31 timeout=23 error=0  1h41m08s/2h06m44s 798 (79%)
+#### OK       Mar 02 23:49:38 timeout=23 error=0  1h41m15s/2h06m43s 799 (79%)
+#### OK       Mar 02 23:49:45 timeout=23 error=0  1h41m22s/2h06m42s 800 (80%)
+#### OK       Mar 02 23:49:51 timeout=23 error=0  1h41m28s/2h06m40s 801 (80%)
+#### OK       Mar 02 23:49:58 timeout=23 error=0  1h41m35s/2h06m39s 802 (80%)
+#### OK       Mar 02 23:50:05 timeout=23 error=0  1h41m42s/2h06m39s 803 (80%)
+#### OK       Mar 02 23:50:12 timeout=23 error=0  1h41m49s/2h06m38s 804 (80%)
+#### OK       Mar 02 23:50:19 timeout=23 error=0  1h41m56s/2h06m37s 805 (80%)
+#### OK       Mar 02 23:50:26 timeout=23 error=0  1h42m03s/2h06m36s 806 (80%)
+#### OK       Mar 02 23:50:33 timeout=23 error=0  1h42m10s/2h06m36s 807 (80%)
+#### OK       Mar 02 23:50:40 timeout=23 error=0  1h42m17s/2h06m35s 808 (80%)
+#### OK       Mar 02 23:50:47 timeout=23 error=0  1h42m24s/2h06m34s 809 (80%)
+#### OK       Mar 02 23:50:53 timeout=23 error=0  1h42m30s/2h06m32s 810 (81%)
+#### OK       Mar 02 23:51:00 timeout=23 error=0  1h42m37s/2h06m31s 811 (81%)
+#### OK       Mar 02 23:51:07 timeout=23 error=0  1h42m44s/2h06m31s 812 (81%)
+#### OK       Mar 02 23:51:14 timeout=23 error=0  1h42m51s/2h06m30s 813 (81%)
+#### OK       Mar 02 23:51:21 timeout=23 error=0  1h42m58s/2h06m29s 814 (81%)
+#### OK       Mar 02 23:51:28 timeout=23 error=0  1h43m05s/2h06m28s 815 (81%)
+#### OK       Mar 02 23:51:35 timeout=23 error=0  1h43m12s/2h06m28s 816 (81%)
+#### OK       Mar 02 23:51:42 timeout=23 error=0  1h43m19s/2h06m27s 817 (81%)
+#### OK       Mar 02 23:51:48 timeout=23 error=0  1h43m25s/2h06m25s 818 (81%)
+#### OK       Mar 02 23:51:55 timeout=23 error=0  1h43m32s/2h06m24s 819 (81%)
+#### OK       Mar 02 23:52:02 timeout=23 error=0  1h43m39s/2h06m24s 820 (82%)
+#### OK       Mar 02 23:52:09 timeout=23 error=0  1h43m46s/2h06m23s 821 (82%)
+#### OK       Mar 02 23:52:16 timeout=23 error=0  1h43m53s/2h06m22s 822 (82%)
+#### OK       Mar 02 23:52:23 timeout=23 error=0  1h44m00s/2h06m22s 823 (82%)
+#### OK       Mar 02 23:52:30 timeout=23 error=0  1h44m07s/2h06m21s 824 (82%)
+#### OK       Mar 02 23:52:37 timeout=23 error=0  1h44m14s/2h06m20s 825 (82%)
+#### OK       Mar 02 23:52:44 timeout=23 error=0  1h44m21s/2h06m19s 826 (82%)
+#### OK       Mar 02 23:52:51 timeout=23 error=0  1h44m28s/2h06m19s 827 (82%)
+#### OK       Mar 02 23:52:57 timeout=23 error=0  1h44m34s/2h06m17s 828 (82%)
+#### OK       Mar 02 23:53:04 timeout=23 error=0  1h44m41s/2h06m16s 829 (82%)
+#### OK       Mar 02 23:53:11 timeout=23 error=0  1h44m48s/2h06m15s 830 (83%)
+#### OK       Mar 02 23:53:18 timeout=23 error=0  1h44m55s/2h06m15s 831 (83%)
+#### OK       Mar 02 23:53:25 timeout=23 error=0  1h45m02s/2h06m14s 832 (83%)
+#### OK       Mar 02 23:53:31 timeout=23 error=0  1h45m08s/2h06m12s 833 (83%)
+#### OK       Mar 02 23:53:39 timeout=23 error=0  1h45m16s/2h06m13s 834 (83%)
+#### OK       Mar 02 23:53:45 timeout=23 error=0  1h45m22s/2h06m11s 835 (83%)
+#### OK       Mar 02 23:53:52 timeout=23 error=0  1h45m29s/2h06m10s 836 (83%)
+#### OK       Mar 02 23:53:59 timeout=23 error=0  1h45m36s/2h06m09s 837 (83%)
+#### OK       Mar 02 23:54:06 timeout=23 error=0  1h45m43s/2h06m09s 838 (83%)
+#### OK       Mar 02 23:54:13 timeout=23 error=0  1h45m50s/2h06m08s 839 (83%)
+#### OK       Mar 02 23:54:20 timeout=23 error=0  1h45m57s/2h06m07s 840 (84%)
+#### OK       Mar 02 23:54:27 timeout=23 error=0  1h46m04s/2h06m07s 841 (84%)
+#### OK       Mar 02 23:54:33 timeout=23 error=0  1h46m10s/2h06m05s 842 (84%)
+#### OK       Mar 02 23:54:40 timeout=23 error=0  1h46m17s/2h06m04s 843 (84%)
+#### OK       Mar 02 23:54:47 timeout=23 error=0  1h46m24s/2h06m03s 844 (84%)
+#### OK       Mar 02 23:54:54 timeout=23 error=0  1h46m31s/2h06m03s 845 (84%)
+#### OK       Mar 02 23:55:01 timeout=23 error=0  1h46m38s/2h06m02s 846 (84%)
+#### OK       Mar 02 23:55:08 timeout=23 error=0  1h46m45s/2h06m01s 847 (84%)
+#### OK       Mar 02 23:55:14 timeout=23 error=0  1h46m51s/2h06m00s 848 (84%)
+#### OK       Mar 02 23:55:21 timeout=23 error=0  1h46m58s/2h05m59s 849 (84%)
+#### OK       Mar 02 23:55:28 timeout=23 error=0  1h47m05s/2h05m58s 850 (85%)
+#### OK       Mar 02 23:55:35 timeout=23 error=0  1h47m12s/2h05m58s 851 (85%)
+#### OK       Mar 02 23:55:42 timeout=23 error=0  1h47m19s/2h05m57s 852 (85%)
+#### OK       Mar 02 23:55:49 timeout=23 error=0  1h47m26s/2h05m56s 853 (85%)
+#### OK       Mar 02 23:55:56 timeout=23 error=0  1h47m33s/2h05m56s 854 (85%)
+#### OK       Mar 02 23:56:03 timeout=23 error=0  1h47m40s/2h05m55s 855 (85%)
+#### OK       Mar 02 23:56:10 timeout=23 error=0  1h47m47s/2h05m54s 856 (85%)
+#### OK       Mar 02 23:56:17 timeout=23 error=0  1h47m54s/2h05m54s 857 (85%)
+#### OK       Mar 02 23:56:24 timeout=23 error=0  1h48m00s/2h05m52s 858 (85%)
+#### OK       Mar 02 23:56:30 timeout=23 error=0  1h48m07s/2h05m51s 859 (85%)
+#### OK       Mar 02 23:56:38 timeout=23 error=0  1h48m15s/2h05m52s 860 (86%)
+#### OK       Mar 02 23:56:44 timeout=23 error=0  1h48m21s/2h05m50s 861 (86%)
+#### OK       Mar 02 23:56:51 timeout=23 error=0  1h48m28s/2h05m49s 862 (86%)
+#### OK       Mar 02 23:56:58 timeout=23 error=0  1h48m35s/2h05m49s 863 (86%)
+#### OK       Mar 02 23:57:05 timeout=23 error=0  1h48m42s/2h05m48s 864 (86%)
+#### OK       Mar 02 23:57:12 timeout=23 error=0  1h48m49s/2h05m47s 865 (86%)
+#### OK       Mar 02 23:57:19 timeout=23 error=0  1h48m56s/2h05m47s 866 (86%)
+#### OK       Mar 02 23:57:26 timeout=23 error=0  1h49m03s/2h05m46s 867 (86%)
+#### OK       Mar 02 23:57:33 timeout=23 error=0  1h49m10s/2h05m46s 868 (86%)
+#### OK       Mar 02 23:57:40 timeout=23 error=0  1h49m17s/2h05m45s 869 (86%)
+#### OK       Mar 02 23:57:47 timeout=23 error=0  1h49m24s/2h05m44s 870 (87%)
+#### OK       Mar 02 23:57:54 timeout=23 error=0  1h49m31s/2h05m44s 871 (87%)
+#### OK       Mar 02 23:58:01 timeout=23 error=0  1h49m38s/2h05m43s 872 (87%)
+#### OK       Mar 02 23:58:08 timeout=23 error=0  1h49m45s/2h05m42s 873 (87%)
+#### OK       Mar 02 23:58:15 timeout=23 error=0  1h49m52s/2h05m42s 874 (87%)
+#### OK       Mar 02 23:58:22 timeout=23 error=0  1h49m59s/2h05m41s 875 (87%)
+#### OK       Mar 02 23:58:28 timeout=23 error=0  1h50m05s/2h05m39s 876 (87%)
+#### OK       Mar 02 23:58:35 timeout=23 error=0  1h50m12s/2h05m39s 877 (87%)
+#### OK       Mar 02 23:58:42 timeout=23 error=0  1h50m19s/2h05m38s 878 (87%)
+#### OK       Mar 02 23:58:49 timeout=23 error=0  1h50m26s/2h05m38s 879 (87%)
+#### OK       Mar 02 23:58:56 timeout=23 error=0  1h50m33s/2h05m37s 880 (88%)
+#### OK       Mar 02 23:59:03 timeout=23 error=0  1h50m40s/2h05m36s 881 (88%)
+#### OK       Mar 02 23:59:10 timeout=23 error=0  1h50m47s/2h05m36s 882 (88%)
+#### OK       Mar 02 23:59:17 timeout=23 error=0  1h50m54s/2h05m35s 883 (88%)
+#### OK       Mar 02 23:59:24 timeout=23 error=0  1h51m01s/2h05m35s 884 (88%)
+#### OK       Mar 02 23:59:31 timeout=23 error=0  1h51m08s/2h05m34s 885 (88%)
+#### OK       Mar 02 23:59:37 timeout=23 error=0  1h51m14s/2h05m32s 886 (88%)
+#### OK       Mar 02 23:59:44 timeout=23 error=0  1h51m21s/2h05m32s 887 (88%)
+#### OK       Mar 02 23:59:51 timeout=23 error=0  1h51m28s/2h05m31s 888 (88%)
+#### OK       Mar 02 23:59:58 timeout=23 error=0  1h51m35s/2h05m30s 889 (88%)
+#### OK       Mar 03 00:00:05 timeout=23 error=0  1h51m42s/2h05m30s 890 (89%)
+#### OK       Mar 03 00:00:12 timeout=23 error=0  1h51m49s/2h05m29s 891 (89%)
+#### OK       Mar 03 00:00:19 timeout=23 error=0  1h51m56s/2h05m29s 892 (89%)
+#### OK       Mar 03 00:00:26 timeout=23 error=0  1h52m03s/2h05m28s 893 (89%)
+#### OK       Mar 03 00:00:33 timeout=23 error=0  1h52m10s/2h05m27s 894 (89%)
+#### OK       Mar 03 00:00:40 timeout=23 error=0  1h52m17s/2h05m27s 895 (89%)
+#### OK       Mar 03 00:00:46 timeout=23 error=0  1h52m23s/2h05m25s 896 (89%)
+#### OK       Mar 03 00:00:53 timeout=23 error=0  1h52m30s/2h05m25s 897 (89%)
+#### OK       Mar 03 00:01:00 timeout=23 error=0  1h52m37s/2h05m24s 898 (89%)
+#### OK       Mar 03 00:01:07 timeout=23 error=0  1h52m44s/2h05m23s 899 (89%)
+#### OK       Mar 03 00:01:14 timeout=23 error=0  1h52m51s/2h05m23s 900 (90%)
+#### OK       Mar 03 00:01:21 timeout=23 error=0  1h52m58s/2h05m22s 901 (90%)
+#### OK       Mar 03 00:01:28 timeout=23 error=0  1h53m05s/2h05m22s 902 (90%)
+#### OK       Mar 03 00:01:35 timeout=23 error=0  1h53m12s/2h05m21s 903 (90%)
+#### OK       Mar 03 00:01:41 timeout=23 error=0  1h53m18s/2h05m19s 904 (90%)
+#### OK       Mar 03 00:01:48 timeout=23 error=0  1h53m25s/2h05m19s 905 (90%)
+#### OK       Mar 03 00:01:55 timeout=23 error=0  1h53m32s/2h05m18s 906 (90%)
+#### OK       Mar 03 00:02:02 timeout=23 error=0  1h53m39s/2h05m18s 907 (90%)
+#### OK       Mar 03 00:02:09 timeout=23 error=0  1h53m46s/2h05m17s 908 (90%)
+#### OK       Mar 03 00:02:16 timeout=23 error=0  1h53m53s/2h05m17s 909 (90%)
+#### OK       Mar 03 00:02:23 timeout=23 error=0  1h54m00s/2h05m16s 910 (91%)
+#### OK       Mar 03 00:02:30 timeout=23 error=0  1h54m07s/2h05m15s 911 (91%)
+#### OK       Mar 03 00:02:37 timeout=23 error=0  1h54m14s/2h05m15s 912 (91%)
+#### OK       Mar 03 00:02:44 timeout=23 error=0  1h54m21s/2h05m14s 913 (91%)
+#### OK       Mar 03 00:02:51 timeout=23 error=0  1h54m28s/2h05m14s 914 (91%)
+#### OK       Mar 03 00:02:58 timeout=23 error=0  1h54m35s/2h05m13s 915 (91%)
+#### OK       Mar 03 00:03:05 timeout=23 error=0  1h54m42s/2h05m13s 916 (91%)
+#### OK       Mar 03 00:03:11 timeout=23 error=0  1h54m48s/2h05m11s 917 (91%)
+#### OK       Mar 03 00:03:18 timeout=23 error=0  1h54m55s/2h05m10s 918 (91%)
+#### OK       Mar 03 00:03:25 timeout=23 error=0  1h55m02s/2h05m10s 919 (91%)
+#### OK       Mar 03 00:03:32 timeout=23 error=0  1h55m09s/2h05m09s 920 (92%)
+#### OK       Mar 03 00:03:39 timeout=23 error=0  1h55m16s/2h05m09s 921 (92%)
+#### OK       Mar 03 00:03:46 timeout=23 error=0  1h55m23s/2h05m08s 922 (92%)
+#### OK       Mar 03 00:03:53 timeout=23 error=0  1h55m30s/2h05m08s 923 (92%)
+#### OK       Mar 03 00:04:00 timeout=23 error=0  1h55m37s/2h05m07s 924 (92%)
+#### OK       Mar 03 00:04:07 timeout=23 error=0  1h55m44s/2h05m07s 925 (92%)
+#### OK       Mar 03 00:04:13 timeout=23 error=0  1h55m50s/2h05m05s 926 (92%)
+#### OK       Mar 03 00:04:21 timeout=23 error=0  1h55m58s/2h05m05s 927 (92%)
+#### OK       Mar 03 00:04:27 timeout=23 error=0  1h56m04s/2h05m04s 928 (92%)
+#### OK       Mar 03 00:04:34 timeout=23 error=0  1h56m11s/2h05m03s 929 (92%)
+#### OK       Mar 03 00:04:41 timeout=23 error=0  1h56m18s/2h05m03s 930 (93%)
+#### OK       Mar 03 00:04:48 timeout=23 error=0  1h56m25s/2h05m02s 931 (93%)
+#### OK       Mar 03 00:04:55 timeout=23 error=0  1h56m32s/2h05m02s 932 (93%)
+#### OK       Mar 03 00:05:02 timeout=23 error=0  1h56m39s/2h05m01s 933 (93%)
+#### OK       Mar 03 00:05:09 timeout=23 error=0  1h56m46s/2h05m01s 934 (93%)
+#### OK       Mar 03 00:05:16 timeout=23 error=0  1h56m53s/2h05m00s 935 (93%)
+#### OK       Mar 03 00:05:23 timeout=23 error=0  1h57m00s/2h05m00s 936 (93%)
+#### OK       Mar 03 00:05:30 timeout=23 error=0  1h57m07s/2h04m59s 937 (93%)
+#### OK       Mar 03 00:05:37 timeout=23 error=0  1h57m14s/2h04m58s 938 (93%)
+#### OK       Mar 03 00:05:44 timeout=23 error=0  1h57m21s/2h04m58s 939 (93%)
+#### OK       Mar 03 00:05:51 timeout=23 error=0  1h57m28s/2h04m57s 940 (94%)
+#### OK       Mar 03 00:05:57 timeout=23 error=0  1h57m34s/2h04m56s 941 (94%)
+#### OK       Mar 03 00:06:05 timeout=23 error=0  1h57m42s/2h04m56s 942 (94%)
+#### OK       Mar 03 00:06:11 timeout=23 error=0  1h57m48s/2h04m55s 943 (94%)
+#### OK       Mar 03 00:06:18 timeout=23 error=0  1h57m55s/2h04m54s 944 (94%)
+#### OK       Mar 03 00:06:25 timeout=23 error=0  1h58m02s/2h04m54s 945 (94%)
+#### OK       Mar 03 00:06:32 timeout=23 error=0  1h58m09s/2h04m53s 946 (94%)
+#### OK       Mar 03 00:06:39 timeout=23 error=0  1h58m16s/2h04m53s 947 (94%)
+#### OK       Mar 03 00:06:46 timeout=23 error=0  1h58m23s/2h04m52s 948 (94%)
+#### OK       Mar 03 00:06:53 timeout=23 error=0  1h58m30s/2h04m52s 949 (94%)
+#### OK       Mar 03 00:07:00 timeout=23 error=0  1h58m37s/2h04m51s 950 (95%)
+#### OK       Mar 03 00:07:07 timeout=23 error=0  1h58m44s/2h04m51s 951 (95%)
+#### OK       Mar 03 00:07:14 timeout=23 error=0  1h58m51s/2h04m50s 952 (95%)
+#### OK       Mar 03 00:07:20 timeout=23 error=0  1h58m57s/2h04m48s 953 (95%)
+#### OK       Mar 03 00:07:27 timeout=23 error=0  1h59m04s/2h04m48s 954 (95%)
+#### OK       Mar 03 00:07:34 timeout=23 error=0  1h59m11s/2h04m47s 955 (95%)
+#### OK       Mar 03 00:07:41 timeout=23 error=0  1h59m18s/2h04m47s 956 (95%)
+#### OK       Mar 03 00:07:48 timeout=23 error=0  1h59m25s/2h04m46s 957 (95%)
+#### OK       Mar 03 00:07:55 timeout=23 error=0  1h59m32s/2h04m46s 958 (95%)
+#### OK       Mar 03 00:08:02 timeout=23 error=0  1h59m39s/2h04m45s 959 (95%)
+#### OK       Mar 03 00:08:08 timeout=23 error=0  1h59m45s/2h04m44s 960 (96%)
+#### OK       Mar 03 00:08:15 timeout=23 error=0  1h59m52s/2h04m43s 961 (96%)
+#### OK       Mar 03 00:08:22 timeout=23 error=0  1h59m59s/2h04m43s 962 (96%)
+#### OK       Mar 03 00:08:29 timeout=23 error=0  2h00m06s/2h04m42s 963 (96%)
+#### OK       Mar 03 00:08:36 timeout=23 error=0  2h00m13s/2h04m42s 964 (96%)
+#### OK       Mar 03 00:08:43 timeout=23 error=0  2h00m20s/2h04m41s 965 (96%)
+#### OK       Mar 03 00:08:50 timeout=23 error=0  2h00m27s/2h04m41s 966 (96%)
+#### OK       Mar 03 00:08:57 timeout=23 error=0  2h00m34s/2h04m40s 967 (96%)
+#### OK       Mar 03 00:09:04 timeout=23 error=0  2h00m41s/2h04m40s 968 (96%)
+#### OK       Mar 03 00:09:11 timeout=23 error=0  2h00m48s/2h04m39s 969 (96%)
+#### OK       Mar 03 00:09:17 timeout=23 error=0  2h00m54s/2h04m38s 970 (97%)
+#### OK       Mar 03 00:09:24 timeout=23 error=0  2h01m01s/2h04m37s 971 (97%)
+#### OK       Mar 03 00:09:31 timeout=23 error=0  2h01m08s/2h04m37s 972 (97%)
+#### OK       Mar 03 00:09:38 timeout=23 error=0  2h01m15s/2h04m36s 973 (97%)
+#### OK       Mar 03 00:09:45 timeout=23 error=0  2h01m22s/2h04m36s 974 (97%)
+#### OK       Mar 03 00:09:52 timeout=23 error=0  2h01m29s/2h04m35s 975 (97%)
+#### OK       Mar 03 00:09:59 timeout=23 error=0  2h01m36s/2h04m35s 976 (97%)
+#### OK       Mar 03 00:10:06 timeout=23 error=0  2h01m43s/2h04m34s 977 (97%)
+#### OK       Mar 03 00:10:12 timeout=23 error=0  2h01m49s/2h04m33s 978 (97%)
+#### OK       Mar 03 00:10:19 timeout=23 error=0  2h01m56s/2h04m32s 979 (97%)
+#### OK       Mar 03 00:10:26 timeout=23 error=0  2h02m03s/2h04m32s 980 (98%)
+#### OK       Mar 03 00:10:33 timeout=23 error=0  2h02m10s/2h04m31s 981 (98%)
+#### OK       Mar 03 00:10:40 timeout=23 error=0  2h02m17s/2h04m31s 982 (98%)
+#### OK       Mar 03 00:10:47 timeout=23 error=0  2h02m24s/2h04m31s 983 (98%)
+#### OK       Mar 03 00:10:54 timeout=23 error=0  2h02m31s/2h04m30s 984 (98%)
+#### OK       Mar 03 00:11:01 timeout=23 error=0  2h02m38s/2h04m30s 985 (98%)
+#### OK       Mar 03 00:11:07 timeout=23 error=0  2h02m44s/2h04m28s 986 (98%)
+#### OK       Mar 03 00:11:14 timeout=23 error=0  2h02m51s/2h04m28s 987 (98%)
+#### OK       Mar 03 00:11:21 timeout=23 error=0  2h02m58s/2h04m27s 988 (98%)
+#### OK       Mar 03 00:11:28 timeout=23 error=0  2h03m05s/2h04m27s 989 (98%)
+#### OK       Mar 03 00:11:35 timeout=23 error=0  2h03m12s/2h04m26s 990 (99%)
+#### OK       Mar 03 00:11:42 timeout=23 error=0  2h03m19s/2h04m26s 991 (99%)
+#### OK       Mar 03 00:11:49 timeout=23 error=0  2h03m26s/2h04m25s 992 (99%)
+#### OK       Mar 03 00:11:56 timeout=23 error=0  2h03m33s/2h04m25s 993 (99%)
+#### OK       Mar 03 00:12:03 timeout=23 error=0  2h03m40s/2h04m24s 994 (99%)
+#### OK       Mar 03 00:12:10 timeout=23 error=0  2h03m47s/2h04m24s 995 (99%)
+#### OK       Mar 03 00:12:16 timeout=23 error=0  2h03m53s/2h04m22s 996 (99%)
+#### OK       Mar 03 00:12:23 timeout=23 error=0  2h04m00s/2h04m22s 997 (99%)
+#### OK       Mar 03 00:12:30 timeout=23 error=0  2h04m07s/2h04m21s 998 (99%)
+#### OK       Mar 03 00:12:37 timeout=23 error=0  2h04m14s/2h04m21s 999 (99%)
+#### OK       Mar 03 00:12:44 timeout=23 error=0  2h04m21s/2h04m21s 1000 (100%)
