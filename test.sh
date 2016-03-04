@@ -1,5 +1,5 @@
 #!/bin/bash
-all=1000
+all=10000
 error=0
 timeout=0
 show_stat()
@@ -21,22 +21,42 @@ show_env()
     git log -1 --oneline
     git diff | cat
 }
+shutdown_detected()
+{
+    shutdown=$(($shutdown + 1))
+    if [ "$detected". = . ]; then
+	cat $out
+	detected=1
+    fi
+    show_stat "#### SHUTDOWN"
+    sleep 5
+}
 error_detected()
 {
     error=$(($error + 1))
-    if [ "$detected". != . ]; then return; fi
-    detected=1
-    cat $out
+    if [ "$detected". = . ]; then
+	cat $out
+	detected=1
+    fi
     show_stat "#### EXIT" $*
-    sleep 5
 }
 timeout_detected()
 {
     timeout=$(($timeout + 1))
-    if [ "$detected". != . ]; then return; fi
-    detected=1
-    cat $out
+    if [ "$detected". = . ]; then
+	cat $out
+	detected=1
+    fi
     show_stat "#### TIMEOUT"
+}
+check_device()
+{
+    sleep 1
+    if (ioreg -p IOUSB || lsusb) | grep -i xbox > /dev/null; then
+	return 0
+    else
+	return 1
+    fi
 }
 LOG_FILE=`dirname $0`/test-logs/`basename $0`-`date '+%Y%m%d-%H%M%S'`.txt
 echo log file is $LOG_FILE
@@ -49,7 +69,7 @@ for i in `seq 1 $all`; do
     detected=
     ./bin/Protonect cl -frames 1 > $out 2>&1 &
     protonect_pid=$!
-    ( sleep 20; kill -15 $protonect_pid ) > /dev/null 2>&1 &
+    ( sleep 30; kill -15 $protonect_pid ) > /dev/null 2>&1 &
     killer_pid=$!
     wait $protonect_pid
     exit_stat=$?
@@ -57,8 +77,10 @@ for i in `seq 1 $all`; do
 	error_detected `printf "%2x" $exit_stat`
     fi
     ps $killer_pid > /dev/null 2>&1 || timeout_detected
-    if grep timeout $out; then
-	timeout_detected
+    if check_device; then
+	:
+    else
+	shutdown_detected
     fi
     if [ "$detected". != . ]; then
 	:
