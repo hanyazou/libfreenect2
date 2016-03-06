@@ -25,7 +25,7 @@ shutdown_detected()
 {
     shutdown=$(($shutdown + 1))
     if [ "$detected". = . ]; then
-	cat $out
+	cat $out | tr -d '\0'
 	detected=1
     fi
     show_stat "#### SHUTDOWN"
@@ -35,7 +35,7 @@ error_detected()
 {
     error=$(($error + 1))
     if [ "$detected". = . ]; then
-	cat $out
+	cat $out | tr -d '\0'
 	detected=1
     fi
     show_stat "#### EXIT" $*
@@ -44,7 +44,7 @@ timeout_detected()
 {
     timeout=$(($timeout + 1))
     if [ "$detected". = . ]; then
-	cat $out
+	cat $out | tr -d '\0'
 	detected=1
     fi
     show_stat "#### TIMEOUT"
@@ -81,6 +81,9 @@ for i in `seq 1 $all`; do
 	:
     else
 	shutdown_detected
+    fi
+    if tr -d '\0' < $out | grep timeout; then
+	timeout_detected
     fi
     if [ "$detected". != . ]; then
 	:
