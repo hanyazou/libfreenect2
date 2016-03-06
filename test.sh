@@ -51,8 +51,13 @@ timeout_detected()
 }
 check_device()
 {
+    if (ioreg -p IOUSB || lsusb -d 045e:02c4 -v) 2>&1 | grep -i xbox > /dev/null; then
+	:
+    else
+	return 1
+    fi
     sleep 1
-    if (ioreg -p IOUSB || lsusb) | grep -i xbox > /dev/null; then
+    if (ioreg -p IOUSB || lsusb -d 045e:02c4 -v) 2>&1 | grep -i xbox > /dev/null; then
 	return 0
     else
 	return 1
