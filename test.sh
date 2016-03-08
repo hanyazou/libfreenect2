@@ -4,7 +4,6 @@ error=0
 timeout=0
 show_stat()
 {
-    progress=$(($progress + 1))
     ct=$((`date '+%s'` - $st))
     et=$(($ct * $all / $progress))
     
@@ -47,6 +46,7 @@ timeout_detected()
 	cat $out | tr -d '\0'
 	detected=1
     fi
+    tr -d '\0' < $out | grep timeout
     show_stat "#### TIMEOUT"
 }
 check_device()
@@ -74,20 +74,21 @@ for i in `seq 1 $all`; do
     detected=
     ./bin/Protonect cl -frames 1 > $out 2>&1 &
     protonect_pid=$!
-    ( sleep 30; kill -15 $protonect_pid ) > /dev/null 2>&1 &
+    progress=$(($progress + 1))
+    ( sleep 50; kill -15 $protonect_pid ) > /dev/null 2>&1 &
     killer_pid=$!
     wait $protonect_pid
     exit_stat=$?
-    if [ $exit_stat != 0 -a $exit_stat != 143 ]; then
+    ps $killer_pid > /dev/null 2>&1 || timeout_detected
+    if [ $exit_stat != 0 ]; then
 	error_detected `printf "%2x" $exit_stat`
     fi
-    ps $killer_pid > /dev/null 2>&1 || timeout_detected
     if check_device; then
 	:
     else
 	shutdown_detected
     fi
-    if tr -d '\0' < $out | grep timeout; then
+    if tr -d '\0' < $out | grep timeout > /dev/null; then
 	timeout_detected
     fi
     if [ "$detected". != . ]; then
