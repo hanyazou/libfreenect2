@@ -28,12 +28,13 @@ BEGIN {
 {
   ok=0;
   buf[idx++] = $0;
-  if (bs < idx)
-    idx = 0;
+  idx = (idx % bs);
 }
 /^#### / {
   for (i = 0; i < bs; i++) {
-    printf("%s\n", buf[(idx+i)%bs]);
+    if (buf[(idx+i)%bs] != "")
+      printf("%s\n", buf[(idx+i)%bs]);
+    buf[(idx+i)%bs] = "";
   }
 }
 END {
