@@ -2,15 +2,17 @@
 all=10000
 error=0
 timeout=0
+killed=0
+nodevice=0
 show_stat()
 {
     ct=$((`date '+%s'` - $st))
     et=$(($ct * $all / $progress))
     
     printf "%-13s %s" "$*" "`date '+%b %d %H:%M:%S'`"
-    printf " timeout=%d error=%d " $timeout $error
-    printf " %dh%02dm%02ds" $(($ct / 3600)) $(($ct / 60 % 60)) $(($ct % 60))
-    printf "/%dh%02dm%02ds" $(($et / 3600)) $(($et / 60 % 60)) $(($et % 60))
+    printf " tout=%d kill=%d nodev=%d err=%d " $timeout $killed $nodevice $error
+    printf " %dh%02dm" $(($ct / 3600)) $(($ct / 60 % 60))
+    printf "/%dh%02dm" $(($et / 3600)) $(($et / 60 % 60))
     printf " %d (%d%%)" $progress $(($progress * 100 / $all))
     printf "\n"
 }
@@ -20,14 +22,14 @@ show_env()
     git log -1 --oneline
     git diff | cat
 }
-shutdown_detected()
+nodevice_detected()
 {
-    shutdown=$(($shutdown + 1))
+    nodevice=$(($nodevice + 1))
     if [ "$detected". = . ]; then
 	cat $out | tr -d '\0'
 	detected=1
     fi
-    show_stat "#### SHUTDOWN"
+    show_stat "#### NODEV"
     sleep 5
 }
 error_detected()
@@ -37,7 +39,7 @@ error_detected()
 	cat $out | tr -d '\0'
 	detected=1
     fi
-    show_stat "#### EXIT" $*
+    show_stat "#### ERROR" $*
 }
 timeout_detected()
 {
@@ -48,6 +50,16 @@ timeout_detected()
     fi
     tr -d '\0' < $out | grep timeout
     show_stat "#### TIMEOUT"
+}
+killed_detected()
+{
+    killed=$(($killed + 1))
+    if [ "$detected". = . ]; then
+	cat $out | tr -d '\0'
+	detected=1
+    fi
+    tr -d '\0' < $out | grep timeout
+    show_stat "#### KILLED"
 }
 check_device()
 {
@@ -79,14 +91,14 @@ for i in `seq 1 $all`; do
     killer_pid=$!
     wait $protonect_pid
     exit_stat=$?
-    ps $killer_pid > /dev/null 2>&1 || timeout_detected
+    ps $killer_pid > /dev/null 2>&1 || killed_detected
     if [ $exit_stat != 0 ]; then
 	error_detected `printf "%2x" $exit_stat`
     fi
     if check_device; then
 	:
     else
-	shutdown_detected
+	nodevice_detected
     fi
     if tr -d '\0' < $out | grep timeout > /dev/null; then
 	timeout_detected
